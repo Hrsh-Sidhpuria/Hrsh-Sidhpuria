@@ -1,0 +1,37 @@
+.n-wrapper {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+}
+
+.n-left {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+}
+
+.n-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 400;
+}
+
+.n-list ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  list-style-type: none;
+}
+
+.n-list ul :hover {
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

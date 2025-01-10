@@ -1,0 +1,33 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+.i-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.i-right {
+  display: flex;
+  flex: 1;
+}
+
+.i-greet {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.i-name {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-summary {
+  color: var(--black);
+  font-size: small;
+}
+
+.i-button {
+  margin: 13px;
+}
