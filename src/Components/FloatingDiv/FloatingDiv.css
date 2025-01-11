@@ -1,0 +1,38 @@
+.well-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 75px;
+
+  border-radius: 10px;
+  background-color: #c6c7e3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.well-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.Floating-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  gap: 5px;
+}
+
+.f-image {
+  width: 70px;
+}
+
+.f-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black);
+  word-wrap: break-word;
+  margin: 0;
+}

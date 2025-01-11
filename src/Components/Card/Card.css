@@ -1,0 +1,47 @@
+.c-card {
+  border: 3px #0085b5 solid;
+  width: 30%;
+  padding: 10px;
+  background: linear-gradient(145deg, #c6c7e3, #e6e6e6);
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.c-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2),
+    -8px -8px 16px rgba(255, 255, 255, 0.6);
+}
+
+.a-emoji img {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.c-list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.c-list li {
+  font-size: 1rem;
+  color: #555;
+  margin: 4px 0;
+  padding: 2px 5px;
+  text-align: left;
+  margin-left: 15px;
+}

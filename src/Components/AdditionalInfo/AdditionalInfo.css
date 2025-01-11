@@ -1,0 +1,43 @@
+.add-info {
+  height: 90vh;
+  display: flex;
+  flex: 1;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+}
+.a-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+.a-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+}
+.a1 {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.a2 {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.c-card1 {
+  position: relative;
+  top: -10%;
+}
+.c-card2 {
+  position: relative;
+  right: -40%;
+  top: -30%;
+}
+.c-card3 {
+  position: relative;
+  top: -50%;
+}
