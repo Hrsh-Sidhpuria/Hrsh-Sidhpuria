@@ -1,0 +1,66 @@
+/* Container for the static visible area */
+.static-container {
+  width: 1300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.static-track {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  width: max-content;
+  animation: slide 20s linear infinite;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  background-color: #c6c7e3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tech-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.tech-name {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.static-track:after {
+  content: "";
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.static-track {
+  margin-right: 16px;
+}
