@@ -33,8 +33,18 @@ function ProjectSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="Slider-card">
-            <div className="sc-name">test 1</div>
+            <div className="sc-title">test 1</div>
             <img src={d2} alt="" />
+            <div className="sc-brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              maxime consequuntur iusto quod cumque voluptas similique enim quae
+              quos molestiae excepturi obcaecati, facilis nisi sunt eligendi
+              consequatur temporibus nam explicabo?
+            </div>
+            <div className="sc-btn">
+              <button className="sc-detail-btn">Detail</button>
+              <button className="sc-git-btn">Git</button>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
