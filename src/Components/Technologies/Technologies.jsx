@@ -30,8 +30,8 @@ function Technologies() {
     { logo: { git }, name: "Git" },
     { logo: { github }, name: "Github" },
     { logo: { bootstrap }, name: "Bootstrap" },
-    { logo: { c }, name: "C" },
-    { logo: { dsa }, name: "DSA" },
+    { logo: { c }, name: "C Programming" },
+    { logo: { dsa }, name: "Data Structure and Algorithm" },
   ];
   return (
     <div className="Technology">

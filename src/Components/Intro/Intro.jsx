@@ -39,18 +39,21 @@ function Intro() {
               <a
                 href="https://github.com/Hrsh-Sidhpuria"
                 title="Harsh Sidhpuria Github"
+                target="_blank"
               >
                 <img src={github} alt="gihub image" />
               </a>
               <a
                 href="https://in.linkedin.com/in/harsh-sidhpuria-26a0b62b8"
                 title="Harsh sidhpuria LinkedIn"
+                target="_blank"
               >
                 <img src={linkedin} alt="linkedin image" />
               </a>
               <a
                 href="https://www.instagram.com/hrsh_960s/"
                 title="Harsh sidhpuria insta handle"
+                target="_blank"
               >
                 <img src={insta} alt="insta image" />
               </a>

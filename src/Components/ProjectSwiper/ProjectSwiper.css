@@ -1,0 +1,49 @@
+.projectswiper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  z-index: 3;
+}
+
+.Project-slider {
+  margin-top: 3rem;
+  width: 100%;
+  min-height: 15rem;
+  overflow: hidden;
+}
+
+.Project-slider .swiper-slide {
+  background-color: black;
+  flex-shrink: 0;
+  width: auto;
+  max-width: 20rem;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  border-radius: 9px;
+}
+
+.Project-slider img {
+  width: 100%;
+  max-width: 25rem;
+  filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.3));
+  border-radius: 9px;
+}
+
+.some-surrounding-element {
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  .Project-slider {
+    min-height: 12rem;
+  }
+}
+
+.demodemo {
+  display: flex;
+  flex-direction: column;
+}

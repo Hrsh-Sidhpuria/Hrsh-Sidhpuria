@@ -1,0 +1,26 @@
+.about {
+  height: 70vh;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.a-title {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.a-desc {
+  color: var(--gray);
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.p-main {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.p-title {
+  display: flex;
+  justify-content: center;
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.p-projects {
+  width: 100%;
+  height: 80%;
+}
