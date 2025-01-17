@@ -22,7 +22,7 @@ function Technologies() {
     { logo: { dotnet }, name: "Asp.net core MVC" },
     { logo: { html }, name: "HTML" },
     { logo: { css }, name: "CSS" },
-    { logo: { js }, name: "JS" },
+    { logo: { js }, name: "JavaScript" },
     { logo: { react }, name: "React" },
     { logo: { powerbi }, name: "PowerBI" },
     { logo: { sql }, name: "SQL" },

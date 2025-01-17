@@ -11,6 +11,11 @@
   --smboxshadow: -79px 51px 60px #0c0d0f;
   --yellow: hwb(44 5% 7%);
   --orange: #ff9b04;
+  --dark: 0;
+  --transition: 0.28s;
+  --font-size: 2rem;
+  --bg: hsl(0 0% calc((100 - (var(--dark, 0) * 100)) * 1%));
+  --color: hsl(0 0% calc(var(--dark) * 100%));
 }
 
 .App {
