@@ -1,11 +1,8 @@
 .n-wrapper {
   display: flex;
-  flex-wrap: wrap;
   height: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
-  width: 28%;
   box-sizing: border-box;
   position: relative;
   z-index: 0;

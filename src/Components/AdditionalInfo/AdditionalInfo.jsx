@@ -43,7 +43,7 @@ function AdditionalInfo() {
               initial={{ left: "-20%", rotate: -15 }}
               whileInView={{ left: "0%", rotate: 0 }}
               transition={transition}
-              viewport={{ amount: 0.2 }}
+              viewport={{ amount: 0.3 }}
               className="c-card3"
             >
               <Card emoji={SoftSkill} title="Soft Skill" arr={soft} />

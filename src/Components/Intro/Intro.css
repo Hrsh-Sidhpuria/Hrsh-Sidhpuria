@@ -71,13 +71,10 @@
   transform: scale(0.9);
 }
 
-.i-icons > *:hover {
-}
-
 .f1 {
   position: absolute;
   top: 11%;
-  right: -1%;
+  right: 10%;
   transform: translateX(-50%);
   z-index: 2;
 }
