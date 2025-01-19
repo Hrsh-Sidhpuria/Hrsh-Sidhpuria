@@ -4,8 +4,10 @@ import Card from "../Card/Card";
 import language from "../../image/languages.png";
 import Interest from "../../image/interest.png";
 import SoftSkill from "../../image/soft skill.png";
+import { motion } from "framer-motion";
 
 function AdditionalInfo() {
+  const transition = { duration: 2, type: "spring" };
   const Languages = ["English", "Hindi", "Gujarati"];
   const interest = ["Continuous Learning", "Travelling", "Book Reading"];
   const soft = ["Communication", "Critical thinking", "Decison Making"];
@@ -17,15 +19,33 @@ function AdditionalInfo() {
           <div className="a2">Information</div>
         </div>
         <div className="a-right">
-          <div className="c-card1">
+          <motion.div
+            initial={{ left: "-20%", rotate: -15 }}
+            whileInView={{ left: "0%", rotate: 0 }}
+            transition={transition}
+            viewport={{ amount: 0.3 }}
+            className="c-card1"
+          >
             <Card emoji={language} title="Languages Known" arr={Languages} />
-          </div>
-          <div className="c-card2">
+          </motion.div>
+          <motion.div
+            initial={{ right: "-60%", rotate: 15 }}
+            whileInView={{ right: "-40%", rotate: 0 }}
+            transition={transition}
+            viewport={{ amount: 0.3 }}
+            className="c-card2"
+          >
             <Card emoji={Interest} title="Interest" arr={interest} />
-          </div>
-          <div className="c-card3">
+          </motion.div>
+          <motion.div
+            initial={{ left: "-20%", rotate: -15 }}
+            whileInView={{ left: "0%", rotate: 0 }}
+            transition={transition}
+            viewport={{ amount: 0.2 }}
+            className="c-card3"
+          >
             <Card emoji={SoftSkill} title="Soft Skill" arr={soft} />
-          </div>
+          </motion.div>
           <div className="blurry" style={{ background: "#ddaaec" }} />
         </div>
       </div>

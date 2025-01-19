@@ -30,7 +30,7 @@ function ContactMe() {
           console.log(result.text);
           setLoading(false);
           setSuccessResp(
-            "Email has been sent to harsh Sidhpuria .He will contact you in a while."
+            "Thank You for contacting me .I will contact you in a while."
           );
           setTimeout(() => {
             setSuccessResp("");

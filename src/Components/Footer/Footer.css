@@ -1,0 +1,23 @@
+.f-footer {
+  height: 55vh;
+  background-color: #06040d;
+}
+.f-mail {
+  color: white;
+}
+.f-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.f-info {
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}

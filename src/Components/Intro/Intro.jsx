@@ -10,8 +10,10 @@ import React from "react";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import webdev from "../../image/web-dev.png";
 import Resume from "./Harsh Sidhpuria Resume.pdf";
+import { motion } from "framer-motion";
 
 function Intro() {
+  const transition = { duration: 2, type: "spring" };
   return (
     <div>
       <div className="intro">
@@ -62,20 +64,45 @@ function Intro() {
         </div>
         <div className="i-right">
           <div className="i-profile">
-            <img src={bgVector} className="bg-vector" alt="background image" />
+            <motion.img
+              initial={{ rotate: 5 }}
+              whileInView={{ rotate: 0 }}
+              transition={{ duration: 30 }}
+              src={bgVector}
+              className="bg-vector"
+              alt="background image"
+            />
             <img src={profile} className="profile-image" alt="Profile image" />
           </div>
-          <img
+
+          <motion.img
+            initial={{ left: "-5%" }}
+            whileInView={{ left: "18%" }}
+            viewport={{ amount: 0.8 }}
+            transition={transition}
             className="Problem-solveing-icon"
             src={ProblemSolving}
             alt="problem solving icon"
           />
-          <div className="f1">
+
+          <motion.div
+            className="f1"
+            initial={{ right: "-20%" }}
+            whileInView={{ right: "-1%" }}
+            transition={transition}
+            viewport={{ amount: 0.8 }}
+          >
             <FloatingDiv divData={SoftwareDev} text="Software Development" />
-          </div>
-          <div className="f2">
+          </motion.div>
+          <motion.div
+            className="f2"
+            initial={{ left: "-5%" }}
+            whileInView={{ left: "25%" }}
+            transition={transition}
+            viewport={{ amount: 0.8 }}
+          >
             <FloatingDiv divData={webdev} text="Web Development" />
-          </div>
+          </motion.div>
 
           <div
             className="blurry"

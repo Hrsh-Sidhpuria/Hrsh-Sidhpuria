@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.18.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-scroll": "^1.9.0",
     "swiper": "^11.2.1"
   },
   "devDependencies": {
