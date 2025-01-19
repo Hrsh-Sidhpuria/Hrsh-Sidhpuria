@@ -80,24 +80,26 @@ function Projects() {
   ];
   return (
     <div>
-      <div className="p-main">
-        <div className="p-title"> Projects</div>
+      <div className="projects">
+        <div className="p-main">
+          <div className="p-title"> Projects</div>
 
-        <div className="p-projects">
-          <ProjectSwiper myproj={myProjects} />
+          <div className="p-projects">
+            <ProjectSwiper myproj={myProjects} />
+          </div>
+          <div
+            className="blurry"
+            style={{ background: "#b7bcda", top: "10%", left: "20%" }}
+          ></div>
+          <div
+            className="blurry"
+            style={{ background: "#b7bcda", top: "2%", left: "10%" }}
+          ></div>
+          <div
+            className="blurry"
+            style={{ background: "#ddaaec", top: "18%", left: "30%" }}
+          ></div>
         </div>
-        <div
-          className="blurry"
-          style={{ background: "#b7bcda", top: "10%", left: "20%" }}
-        ></div>
-        <div
-          className="blurry"
-          style={{ background: "#b7bcda", top: "2%", left: "10%" }}
-        ></div>
-        <div
-          className="blurry"
-          style={{ background: "#ddaaec", top: "18%", left: "30%" }}
-        ></div>
       </div>
     </div>
   );

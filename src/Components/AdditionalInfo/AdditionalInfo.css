@@ -40,3 +40,46 @@
   position: relative;
   top: -50%;
 }
+
+@media screen and (max-width: 480px) {
+  .add-info {
+    width: 58%;
+    transform: scale(0.7);
+    flex-direction: column;
+    gap: 6rem;
+    margin-top: -13%;
+    margin-left: -21%;
+  }
+  .a-right {
+    width: 139%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: scale(0.5);
+    left: 10%;
+    margin-left: -5%;
+  }
+  .a-left {
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-card1,
+  .c-card2,
+  .c-card3 {
+    width: 90%;
+    transform: scale(2);
+  }
+  .c-card1 {
+    top: -60%;
+    right: 45%;
+  }
+  .c-card2 {
+    top: -70%;
+    left: 50%;
+  }
+  .c-card3 {
+    top: -80%;
+  }
+}

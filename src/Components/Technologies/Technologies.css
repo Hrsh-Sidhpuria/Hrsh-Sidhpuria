@@ -135,3 +135,44 @@
   cursor: default;
   opacity: 0.24;
 }
+
+@media screen and (max-width: 768px) {
+  .Technology {
+    height: auto;
+    margin-top: 1rem;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .t-title {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+  }
+
+  .t-button {
+    padding: 18px 28px;
+    font-size: clamp(14px, 4vw, 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Technology {
+    width: 22%;
+    height: auto;
+    margin-top: 0.5rem;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .t-title {
+    font-size: clamp(1.8rem, 6vw, 2.2rem);
+    margin-left: 16%;
+    width: 130%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-button {
+    padding: 16px 24px;
+    font-size: clamp(12px, 5vw, 14px);
+  }
+}

@@ -45,3 +45,23 @@
   text-align: left;
   margin-left: 15px;
 }
+
+@media screen and (max-width: 480px) {
+  .c-card {
+    width: 40%;
+    height: 70%;
+  }
+  .c-list li {
+    font-size: 2rem;
+    padding: 2%;
+    margin-left: 15%;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+  .a-emoji img {
+    width: 150px;
+    height: 150px;
+  }
+}

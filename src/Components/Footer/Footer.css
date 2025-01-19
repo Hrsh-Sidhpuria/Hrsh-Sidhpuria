@@ -21,3 +21,9 @@
   align-items: center;
   gap: 3rem;
 }
+@media screen and (max-width: 480px) {
+  .f-footer {
+    margin-top: 20%;
+    width: 29%;
+  }
+}

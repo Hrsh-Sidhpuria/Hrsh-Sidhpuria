@@ -150,7 +150,7 @@ textarea {
 input:hover,
 textarea:hover,
 .submit-btn:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .submit-btn:active {
@@ -320,4 +320,20 @@ input:checked + .slider:before {
 }
 .c-loader {
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .c-body {
+    flex-direction: column;
+    margin-top: 10%;
+    width: 28%;
+  }
+  input,
+  textarea {
+    width: 90%;
+  }
+  .c-btn {
+    width: 101%;
+    margin-left: -6%;
+  }
 }

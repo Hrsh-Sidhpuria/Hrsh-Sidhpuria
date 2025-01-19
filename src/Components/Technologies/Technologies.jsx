@@ -36,8 +36,9 @@ function Technologies() {
   return (
     <div className="Technology">
       <div className="t-title">Technologies known</div>
-
-      <SlidingDiv tech={my_technology} />
+      <div className="t-sliding-div">
+        <SlidingDiv tech={my_technology} />
+      </div>
       <button class="t-button" role="button">
         View All Technologies
       </button>

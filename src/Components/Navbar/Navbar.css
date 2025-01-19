@@ -1,11 +1,15 @@
 .n-wrapper {
   display: flex;
-  height: 10vh;
+  flex-wrap: wrap;
+  height: auto;
   justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 28%;
+  box-sizing: border-box;
   position: relative;
   z-index: 0;
 }
-
 .n-left {
   align-items: center;
   display: flex;
@@ -36,4 +40,9 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
 }

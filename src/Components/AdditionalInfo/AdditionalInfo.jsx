@@ -13,40 +13,43 @@ function AdditionalInfo() {
   const soft = ["Communication", "Critical thinking", "Decison Making"];
   return (
     <div>
-      <div className="add-info">
-        <div className="a-left">
-          <div className="a1">My Additional</div>
-          <div className="a2">Information</div>
-        </div>
-        <div className="a-right">
-          <motion.div
-            initial={{ left: "-20%", rotate: -15 }}
-            whileInView={{ left: "0%", rotate: 0 }}
-            transition={transition}
-            viewport={{ amount: 0.3 }}
-            className="c-card1"
-          >
-            <Card emoji={language} title="Languages Known" arr={Languages} />
-          </motion.div>
-          <motion.div
-            initial={{ right: "-60%", rotate: 15 }}
-            whileInView={{ right: "-40%", rotate: 0 }}
-            transition={transition}
-            viewport={{ amount: 0.3 }}
-            className="c-card2"
-          >
-            <Card emoji={Interest} title="Interest" arr={interest} />
-          </motion.div>
-          <motion.div
-            initial={{ left: "-20%", rotate: -15 }}
-            whileInView={{ left: "0%", rotate: 0 }}
-            transition={transition}
-            viewport={{ amount: 0.2 }}
-            className="c-card3"
-          >
-            <Card emoji={SoftSkill} title="Soft Skill" arr={soft} />
-          </motion.div>
-          <div className="blurry" style={{ background: "#ddaaec" }} />
+      <div className="a-wrapper">
+        <div className="add-info">
+          <div className="a-left">
+            <div className="a1">My Additional</div>
+            <div className="a2">Information</div>
+          </div>
+
+          <div className="a-right">
+            <motion.div
+              initial={{ left: "-20%", rotate: -15 }}
+              whileInView={{ left: "0%", rotate: 0 }}
+              transition={transition}
+              viewport={{ amount: 0.3 }}
+              className="c-card1"
+            >
+              <Card emoji={language} title="Languages Known" arr={Languages} />
+            </motion.div>
+            <motion.div
+              initial={{ right: "-60%", rotate: 15 }}
+              whileInView={{ right: "-40%", rotate: 0 }}
+              transition={transition}
+              viewport={{ amount: 0.3 }}
+              className="c-card2"
+            >
+              <Card emoji={Interest} title="Interest" arr={interest} />
+            </motion.div>
+            <motion.div
+              initial={{ left: "-20%", rotate: -15 }}
+              whileInView={{ left: "0%", rotate: 0 }}
+              transition={transition}
+              viewport={{ amount: 0.2 }}
+              className="c-card3"
+            >
+              <Card emoji={SoftSkill} title="Soft Skill" arr={soft} />
+            </motion.div>
+            <div className="blurry" style={{ background: "#ddaaec" }} />
+          </div>
         </div>
       </div>
     </div>
