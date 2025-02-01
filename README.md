@@ -1,4 +1,5 @@
-<img width=100% title="Hrsh-Sidhpuria" alt="Hrsh-Sidhpuria" src="[https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=4,9&text=Harsh%20Sidhpuria&textBg=false&animation=twinkling&reversal=false](https://capsule-render.vercel.app/api?type=waving&height=188&color=gradient&text=Harsh%20Sidhpuria&textBg=false&reversal=true&section=header)"/>
+<img width=100% title="Hrsh-Sidhpuria" alt="Hrsh-Sidhpuria" src="https://capsule-render.vercel.app/api?type=waving&height=188&color=gradient&customColorList=4,9&text=Harsh%20Sidhpuria&textBg=false&animation=twinkling&reversal=false"/>
+
 # 💫 About Me:
 Result-oriented software developer with a background in computer engineering, having a good sense of solving technical problems, learning new technologies, and implementing effective projects that would create teamwork in innovative solutions in line with the organization's objectives.
 
