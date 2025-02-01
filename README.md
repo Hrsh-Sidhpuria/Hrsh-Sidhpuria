@@ -1,4 +1,4 @@
-# 💫 About Me:
+<img width=100% title="Hrsh-Sidhpuria" alt="Hrsh-Sidhpuria" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=4,9&text=Harsh%20Sidhpuria&textBg=false&animation=twinkling&reversal=false"/>
 Result-oriented software developer with a background in computer engineering, having a good sense of solving technical problems, learning new technologies, and implementing effective projects that would create teamwork in innovative solutions in line with the organization's objectives.
 
 ## <img src='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/handShake.gif' width="50px" height=50px> Socials
@@ -23,44 +23,34 @@ Result-oriented software developer with a background in computer engineering, ha
         <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
       <br>C#
     </td>
-
     <td align="center" width="96">
-      <a href="#macropower-tech">
         <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
-      </a>
       <br>Python
     </td>
-
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
       <br>Javascript
     </td>
-
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
       <br>Github
     </td>
-
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="Rest API" />
       <br>Rest API
     </td>
-
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/react-icon.svg" width="65" height="65" alt="React" />
       <br>React
     </td>
-
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/java-icon.svg" width="65" height="65" alt="Java" />
       <br>Java
     </td>
-
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Nodejs" />
       <br>Nodejs
     </td>
-
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
       <br>MongoDB
@@ -99,8 +89,6 @@ Result-oriented software developer with a background in computer engineering, ha
         <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET Core" />
       <br>ASP.NET
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
       <br>Postman
@@ -118,6 +106,6 @@ Result-oriented software developer with a background in computer engineering, ha
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Hrsh-Sidhpuria&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
-# Thank You so much 
+<img width=100% title="thank you" alt="thank you" src="https://capsule-render.vercel.app/api?type=rect&height=86&text=Thank%20You&textBg=false&animation=twinkling&reversal=false&section=footer"/>
 
 
