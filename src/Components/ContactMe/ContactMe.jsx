@@ -1,10 +1,14 @@
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 import React, { useRef, useState } from "react";
 import Loader from "../Loader/Loader";
+import { delay } from "framer-motion";
 
 function ContactMe() {
+  useScrollReveal(".c-left", { origin: "left", delay: 100 });
+  useScrollReveal(".c-right", { origin: "bottom", delay: 800 });
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

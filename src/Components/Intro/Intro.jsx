@@ -11,9 +11,11 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import webdev from "../../image/web-dev.png";
 import Resume from "./Harsh Sidhpuria Resume.pdf";
 import { motion } from "framer-motion";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 function Intro() {
   const transition = { duration: 2, type: "spring" };
+  useScrollReveal(".i-left");
   return (
     <div>
       <div className="intro">

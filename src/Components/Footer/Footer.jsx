@@ -10,6 +10,7 @@ function Footer() {
       <div className="f-footer">
         <div className="f-info">
           <div className="f-mail">harshsidhpuria@gmail.com</div>
+
           <div className="f-icons">
             <div className="f-insta">
               <a href="https://www.instagram.com/hrsh_960s/" target="_blank">

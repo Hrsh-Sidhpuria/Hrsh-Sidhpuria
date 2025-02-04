@@ -39,9 +39,11 @@ function Technologies() {
       <div className="t-sliding-div">
         <SlidingDiv tech={my_technology} />
       </div>
-      <button class="t-button" role="button">
-        View All Technologies
-      </button>
+      <div className="t-btn">
+        <button class="t-button" role="button">
+          View All Technologies
+        </button>
+      </div>
     </div>
   );
 }

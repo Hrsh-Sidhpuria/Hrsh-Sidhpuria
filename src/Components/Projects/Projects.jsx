@@ -4,11 +4,14 @@ import Pathprovider from "../../image/Projects/Path Provider.jpg";
 import FacialExpressionDetection from "../../image/Projects/Facial Expression Detection.jpg";
 import JavascriptProjects from "../../image/Projects/Javascript Projects.jpg";
 import AuthGuardCore from "../../image/Projects/AuthGuard Core.jpg";
+import chromeExtension from "../../image/Projects/Chrome Extension.png";
 import greybg from "../../image/Projects/dummy image.jpg";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 import React from "react";
 
 function Projects() {
+  useScrollReveal(".p-projects");
   const myProjects = [
     {
       name: "Path Provider",
@@ -57,7 +60,7 @@ function Projects() {
     },
     {
       name: "Chrome Extension",
-      img: greybg,
+      img: chromeExtension,
       brief:
         "A Chrome extension is an extension of browser functionality, using web technologies such as HTML, CSS, and JavaScript. For instance, a Color Picker extension would allow users to pick colors from web pages, showing their codes, such as HEX, for easy use in design or development tasks.",
       url: "",

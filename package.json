@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hrsh-Sidhpuria.github.io/Harsh_Sidhpuria-Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -14,10 +13,12 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^11.18.1",
+    "framer-motion": "^11.18.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scroll": "^1.9.0",
+    "remixicon": "^4.6.0",
+    "scrollreveal": "^4.0.9",
     "swiper": "^11.2.1"
   },
   "devDependencies": {

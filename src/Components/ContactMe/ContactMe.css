@@ -336,4 +336,20 @@ input:checked + .slider:before {
     width: 101%;
     margin-left: -6%;
   }
+  .c-loader {
+    width: 100%;
+    margin-left: -6%;
+  }
+  .s-response {
+    width: 100%;
+    margin-left: -6%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .e-response {
+    width: 100%;
+    margin-left: -6%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

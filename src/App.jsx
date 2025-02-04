@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
+import ScrollUp from "./Components/ScrollUp/ScrollUp";
 import Technologies from "./Components/Technologies/Technologies";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       </div>
 
       <Footer />
+      <ScrollUp />
     </>
   );
 }

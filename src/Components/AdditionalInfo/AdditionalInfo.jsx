@@ -4,9 +4,11 @@ import Card from "../Card/Card";
 import language from "../../image/languages.png";
 import Interest from "../../image/interest.png";
 import SoftSkill from "../../image/soft skill.png";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 function AdditionalInfo() {
+  useScrollReveal(".a-left", { origin: "left", delay: 100 });
   const transition = { duration: 2, type: "spring" };
   const Languages = ["English", "Hindi", "Gujarati"];
   const interest = ["Continuous Learning", "Travelling", "Book Reading"];

@@ -1,0 +1,35 @@
+.ScrollUp {
+  background-color: #137070;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem; /* Adjusted to be visible */
+  display: inline-flex;
+  padding: 8px;
+  color: white;
+  font-size: 1.25rem;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 0.5rem;
+  z-index: 9;
+  transition: bottom 0.4s, transform 0.4s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ScrollUp:hover {
+  background-color: #429999;
+}
+
+.ScrollUp.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.ScrollUp img {
+  width: 35px;
+  color: white;
+}
+
+.ScrollUp:hover {
+  transform: translateY(-0.5rem);
+}

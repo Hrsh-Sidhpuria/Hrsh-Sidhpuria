@@ -11,7 +11,7 @@
 }
 
 .a-title {
-  color: var(--blue);
+  color: var(--black);
   font-weight: bold;
   font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
@@ -50,14 +50,16 @@
 
 @media screen and (max-width: 480px) {
   .about {
+    position: relative;
     margin-top: 10%;
-    max-width: 90vw;
+    margin-left: 2%;
+
     padding: 1rem;
     gap: 1rem;
   }
 
   .a-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 8%;
   }
 

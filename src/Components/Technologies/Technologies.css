@@ -175,4 +175,10 @@
     padding: 16px 24px;
     font-size: clamp(12px, 5vw, 14px);
   }
+  .t-btn {
+    width: 130%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+  }
 }
