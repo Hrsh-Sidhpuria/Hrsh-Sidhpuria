@@ -15,8 +15,10 @@ import c from "../../image/TechLogo/c.png";
 import dsa from "../../image/TechLogo/dsa.png";
 import SlidingDiv from "../SlidingDiv/SlidingDiv";
 import "./Technologies.css";
+import { useNavigate } from "react-router-dom";
 
 function Technologies() {
+  const navigate = useNavigate();
   const my_technology = [
     { logo: { csharp }, name: "C Sharp" },
     { logo: { dotnet }, name: "Asp.net core MVC" },
@@ -33,6 +35,11 @@ function Technologies() {
     { logo: { c }, name: "C Programming" },
     { logo: { dsa }, name: "Data Structure and Algorithm" },
   ];
+
+  function navigateTOTechPage() {
+    navigate("/technologies");
+  }
+
   return (
     <div className="Technology">
       <div className="t-title">Technologies known</div>
@@ -40,7 +47,7 @@ function Technologies() {
         <SlidingDiv tech={my_technology} />
       </div>
       <div className="t-btn">
-        <button class="t-button" role="button">
+        <button class="t-button" onClick={navigateTOTechPage} role="button">
           View All Technologies
         </button>
       </div>
