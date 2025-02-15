@@ -3,9 +3,10 @@ import "./ProjectSwiper.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import visit from "../../image/external-link.png";
 import "swiper/css";
+import { useNavigate } from "react-router-dom";
 
 function ProjectSwiper({ myproj }) {
-  console.log(myproj);
+  const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
 
@@ -18,6 +19,10 @@ function ProjectSwiper({ myproj }) {
     setIsModalOpen(false);
     setCurrentImage(null);
   };
+
+  function navigateToProjectDetails(index) {
+    navigate(`/projectDetails/${index}`);
+  }
 
   return (
     <div className="projectswiper">
@@ -65,7 +70,12 @@ function ProjectSwiper({ myproj }) {
                 {proj.brief}
               </div>
               <div className="sc-btn">
-                <button class="sc-button">Read More</button>
+                <button
+                  class="sc-button"
+                  onClick={() => navigateToProjectDetails(index)}
+                >
+                  Read More
+                </button>
 
                 {proj.isGitLink && (
                   <a href={proj.gitLink} target="_blank">

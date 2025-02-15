@@ -10,44 +10,49 @@ import Projects from "./Components/Projects/Projects";
 import ScrollUp from "./Components/ScrollUp/ScrollUp";
 import Technologies from "./Components/Technologies/Technologies";
 import AllTech from "./Components/AllTech/AllTech";
+import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
+import { ProjectsListProvider } from "./Context/ProjectListContext";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <div className="nav">
-                <Navbar />
-              </div>
-              <div id="Intro">
-                <Intro />
-              </div>
-              <div id="About">
-                <About />
-              </div>
-              <div id="Technologies">
-                <Technologies />
-              </div>
-              <div id="Projects">
-                <Projects />
-              </div>
-              <div id="AdditionalInfo">
-                <AdditionalInfo />
-              </div>
-              <div id="ContactMe">
-                <ContactMe />
-              </div>
-              <Footer />
-              <ScrollUp />
-            </>
-          }
-        />
-        <Route path="/technologies" element={<AllTech />} />
-      </Routes>
-    </>
+    <ProjectsListProvider>
+      <>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="nav">
+                  <Navbar />
+                </div>
+                <div id="Intro">
+                  <Intro />
+                </div>
+                <div id="About">
+                  <About />
+                </div>
+                <div id="Technologies">
+                  <Technologies />
+                </div>
+                <div id="Projects">
+                  <Projects />
+                </div>
+                <div id="AdditionalInfo">
+                  <AdditionalInfo />
+                </div>
+                <div id="ContactMe">
+                  <ContactMe />
+                </div>
+                <Footer />
+                <ScrollUp />
+              </>
+            }
+          />
+          <Route path="/technologies" element={<AllTech />} />
+          <Route path="/projectDetails/:id" element={<ProjectDetails />} />
+        </Routes>
+      </>
+    </ProjectsListProvider>
   );
 }
 
