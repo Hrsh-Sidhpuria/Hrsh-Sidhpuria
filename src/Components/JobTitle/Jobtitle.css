@@ -1,0 +1,74 @@
+.j-wrapper {
+  display: flex;
+}
+
+.j-text {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: -20px;
+}
+.dynamic-text {
+  position: relative;
+  list-style: none;
+  position: relative;
+  padding-top: 0;
+  margin-left: 0px;
+  overflow: hidden;
+  top: 1px;
+  height: 37px;
+}
+
+.j-typing-text {
+  list-style: none;
+  margin-top: 1px;
+  position: relative;
+  margin-left: -10px;
+  /* overflow: hidden; */
+  top: 0;
+  height: 38px;
+
+  animation: SlideText 15s steps(3) infinite;
+}
+
+@keyframes SlideText {
+  100% {
+    top: -110px;
+  }
+}
+
+.j-typing-text span {
+  margin-left: -18px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: -20px;
+}
+
+.j-typing-text li {
+  position: relative;
+}
+
+.j-typing-text li::after {
+  content: "";
+  width: 110%;
+  position: absolute;
+
+  left: -20px;
+  height: 100%;
+  border-left: 2px solid orange;
+  background-color: #e6eaf4;
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+  animation: typing 5s steps(20) infinite;
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 10px);
+  }
+  100% {
+    left: 0;
+  }
+}

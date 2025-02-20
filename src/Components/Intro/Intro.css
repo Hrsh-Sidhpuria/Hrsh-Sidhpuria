@@ -5,6 +5,8 @@
 }
 .i-left {
   margin: 5px;
+  margin-top: 0;
+  margin-left: 30px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -44,16 +46,22 @@
 .i-greet {
   color: var(--black);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: -20px;
+}
+
+.i-jobTitle {
+  margin-bottom: 10px;
+  margin-top: -15px;
 }
 .i-name {
-  color: var(--blue);
+  color: #2f4481;
   font-weight: bold;
   font-size: 3rem;
 }
 .i-summary {
   color: var(--gray);
-  font-size: small;
+  font-size: 0.8rem;
 }
 
 .i-button {
@@ -62,13 +70,13 @@
 
 .i-icons {
   display: flex;
-  gap: 1rem;
-  margin-top: 3rem;
-  margin-left: 80px;
+  gap: 0.4rem;
+  margin-top: 2.2rem;
+  margin-left: 95px;
 }
 
 .i-icons > * {
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 
 .f1 {

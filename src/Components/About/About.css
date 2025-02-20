@@ -48,6 +48,11 @@
   }
 }
 
+.description span {
+  text-transform: none;
+  color: var(--black);
+}
+
 @media screen and (max-width: 480px) {
   .about {
     position: relative;

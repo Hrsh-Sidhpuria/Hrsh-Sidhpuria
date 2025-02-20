@@ -12,6 +12,7 @@ import webdev from "../../image/web-dev.png";
 import Resume from "./Harsh Sidhpuria Resume.pdf";
 import { motion } from "framer-motion";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
+import Jobtitle from "../JobTitle/Jobtitle";
 
 function Intro() {
   const transition = { duration: 2, type: "spring" };
@@ -23,6 +24,9 @@ function Intro() {
           <div className="i-Introduction">
             <div className="i-greet">Hello, it's me</div>
             <div className="i-name">Harsh Sidhpuria</div>
+            <div className="i-jobTitle i-greet">
+              <Jobtitle />
+            </div>
             <div className="i-summary">
               Result-oriented software developer with a background in computer
               engineering, having a good sense of solving technical problems,
@@ -108,7 +112,7 @@ function Intro() {
 
           <div
             className="blurry"
-            style={{ background: "#b7bcda", bottom: "-20%", left: "-120%" }}
+            style={{ background: "#b7bcda", bottom: "-50%", left: "-120%" }}
           ></div>
         </div>
       </div>

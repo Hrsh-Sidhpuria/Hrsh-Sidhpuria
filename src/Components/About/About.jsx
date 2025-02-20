@@ -2,7 +2,6 @@ import "./About.css";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 import React from "react";
-import { delay } from "framer-motion";
 
 function About() {
   useScrollReveal(".a-desc", { origin: "right", delay: 400 });
