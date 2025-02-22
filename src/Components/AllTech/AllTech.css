@@ -12,8 +12,9 @@
 
 .tech-title {
   font-size: 2.5rem;
+  color: var(--title);
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   width: 100%;
 }
@@ -51,6 +52,7 @@
 }
 
 .tech-text {
-  margin-top: 1%;
-  margin-bottom: 2%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--black);
 }

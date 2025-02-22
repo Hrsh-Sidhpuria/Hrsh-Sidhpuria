@@ -16,7 +16,7 @@ function Jobtitle() {
             <span style={{ color: "orange" }}>Web Developer</span>
           </li>
           <li>
-            <span style={{ color: "blue" }}>software Developer</span>
+            <span style={{ color: "blue" }}>Software Developer</span>
           </li>
         </ul>
       </div>

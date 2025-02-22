@@ -4,7 +4,8 @@
 
 :root {
   --blue: #0085b5;
-  --purple: #ced7fe;
+  --title: #2f4481;
+  --purple: #c6c7e3;
   --black: #242d49;
   --gray: #6c6f81;
   --boxshadow: 0px 19px 60px #07090f;
@@ -49,6 +50,11 @@
   white-space: nowrap;
   cursor: pointer;
 }
+.horizontal-line {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+}
 
 .button:active,
 .button:hover {
@@ -78,10 +84,9 @@
   z-index: -1;
 }
 
-/* Media Queries */
 @media (min-width: 768px) {
   .button {
-    font-size: 1.5rem; /* Increased font size for larger screens */
+    font-size: 1.5rem;
     min-width: 196px;
   }
 

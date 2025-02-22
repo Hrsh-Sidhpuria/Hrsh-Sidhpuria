@@ -6,7 +6,8 @@
   height: 75px;
 
   border-radius: 10px;
-  background-color: #c6c7e3;
+  background-color: var(--purple);
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }

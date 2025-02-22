@@ -12,7 +12,8 @@
   position: relative;
   list-style: none;
   position: relative;
-  padding-top: 0;
+  padding-top: 0px;
+  margin-top: 2px;
   margin-left: 0px;
   overflow: hidden;
   top: 1px;

@@ -6,9 +6,11 @@
   gap: 2rem;
 }
 .p-title {
+  padding-top: 2rem;
+  margin-bottom: -2rem;
   display: flex;
   justify-content: center;
-  color: var(--black);
+  color: var(--title);
   font-weight: bold;
   font-size: 3rem;
 }

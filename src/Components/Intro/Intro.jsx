@@ -25,7 +25,12 @@ function Intro() {
             <div className="i-greet">Hello, it's me</div>
             <div className="i-name">Harsh Sidhpuria</div>
             <div className="i-jobTitle i-greet">
-              <Jobtitle />
+              <div className="i-job-title">
+                <Jobtitle />
+              </div>
+            </div>
+            <div className="horizontal-line">
+              <hr size="2" />
             </div>
             <div className="i-summary">
               Result-oriented software developer with a background in computer

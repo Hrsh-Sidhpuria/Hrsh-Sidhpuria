@@ -20,6 +20,17 @@ function AdditionalInfo() {
           <div className="a-left">
             <div className="a1">My Additional</div>
             <div className="a2">Information</div>
+            <div className="horizontal-line">
+              <hr size="2" />
+            </div>
+            <div className="t-summary">
+              I speak English, Hindi, and Gujarati, which allows me to connect
+              with a wide range of people. I enjoy learning about new
+              technologies, traveling for fresh experiences, and reading to
+              expand my knowledge. My effective communication, critical
+              thinking, and decision-making skills help me tackle challenges and
+              adapt rapidly.
+            </div>
           </div>
 
           <div className="a-right">

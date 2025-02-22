@@ -1,10 +1,10 @@
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
-
 import React, { useRef, useState } from "react";
 import Loader from "../Loader/Loader";
-import { delay } from "framer-motion";
+import whatsapp from "../../image/WA.png";
+import call from "../../image/call.png";
 
 function ContactMe() {
   useScrollReveal(".c-left", { origin: "left", delay: 100 });
@@ -59,6 +59,18 @@ function ContactMe() {
         <div className="c-left">
           <div className="c-title1">Get in Touch</div>
           <div className="c-title2">Contact me</div>
+
+          <div className="horizontal-line">
+            <hr size="2" />
+          </div>
+          <div className="contact-me">
+            <a href="https://wa.me/6351455749" title="Chat with me on WhatsApp">
+              <img src={whatsapp} alt="" className="c-call1" />
+            </a>
+            <a href="tel:+916351455749" title="Call me">
+              <img src={call} alt="" className="c-call2" />
+            </a>
+          </div>
         </div>
         <div className="c-right">
           <form ref={form} onSubmit={sendEmail}>

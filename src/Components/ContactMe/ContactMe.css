@@ -20,6 +20,7 @@
   top: 20%;
   padding-left: 10px;
   margin-left: 30px;
+  padding-top: 3rem;
 }
 
 .c-title1 {
@@ -31,7 +32,7 @@
 
 .c-title2 {
   position: relative;
-  color: var(--blue);
+  color: var(--title);
   font-weight: bold;
   font-size: 3rem;
 }
@@ -95,6 +96,36 @@ textarea,
 label {
   width: 40vw;
   display: block;
+}
+
+.contact-me {
+  margin-top: 30px;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.c-call1 {
+  height: 100%;
+  width: auto;
+}
+
+.c-call2 {
+  padding-top: 5px;
+  height: 85%;
+  width: auto;
+}
+
+.c-call1,
+.c-call2 {
+  transition: all 0.3s ease-in-out;
+}
+
+.c-call1:hover,
+.c-call2:hover {
+  filter: drop-shadow(0 0 10px #9a9ad7);
+  transform: scale(1.1);
 }
 
 p,
@@ -237,13 +268,13 @@ input:checked + .slider:before {
 
 @media only screen and (max-width: 950px) {
   .c-body {
-    flex-direction: column; /* Stack sections vertically */
+    flex-direction: column;
   }
 
   .c-left,
   .c-right {
-    width: 100%; /* Full width for stacked sections */
-    padding: 1rem; /* Add padding for better spacing */
+    width: 100%;
+    padding: 1rem;
   }
 
   .logo {

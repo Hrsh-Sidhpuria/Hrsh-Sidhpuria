@@ -11,6 +11,7 @@
   flex: 1;
   padding: 10px;
   margin-left: 30px;
+  padding-top: 4rem;
 }
 .a-right {
   display: flex;
@@ -19,16 +20,20 @@
   gap: 2rem;
 }
 .a1 {
-  color: var(--gray);
+  color: var(--black);
   font-weight: bold;
   font-size: 3rem;
 }
 .a2 {
-  color: var(--blue);
+  color: var(--title);
   font-weight: bold;
   font-size: 3rem;
 }
 
+.t-summary {
+  color: var(--gray);
+  font-size: 0.7rem;
+}
 .c-card1 {
   position: relative;
   top: -10%;

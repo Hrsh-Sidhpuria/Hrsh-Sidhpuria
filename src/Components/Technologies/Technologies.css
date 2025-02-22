@@ -12,7 +12,7 @@
 }
 
 .t-title {
-  color: var(--black);
+  color: var(--title);
   font-weight: bold;
   font-size: 3rem;
 }

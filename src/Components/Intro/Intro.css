@@ -14,7 +14,7 @@
 .i-right {
   position: relative;
   flex: 1;
-  top: -25%;
+  top: -20%;
   left: 0;
 }
 .i-profile .image-stack {
@@ -51,17 +51,21 @@
 }
 
 .i-jobTitle {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-top: -15px;
 }
+
+.i-job-title {
+  margin-bottom: -10px;
+}
 .i-name {
-  color: #2f4481;
+  color: var(--title);
   font-weight: bold;
   font-size: 3rem;
 }
 .i-summary {
   color: var(--gray);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .i-button {
