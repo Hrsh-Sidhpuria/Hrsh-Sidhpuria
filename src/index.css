@@ -2,7 +2,8 @@
   position: absolute;
   background-color: #e6eaf4;
   z-index: -9;
-  overflow-x: hidden;
+  width: 100%;
+  /* overflow-x: hidden; */
 }
 
 ::-webkit-scrollbar {

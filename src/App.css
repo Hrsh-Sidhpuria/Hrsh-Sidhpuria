@@ -84,7 +84,7 @@
   z-index: -1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .button {
     font-size: 1.5rem;
     min-width: 196px;
@@ -100,6 +100,7 @@
   .App {
     padding: 0.5rem 1rem;
     overflow-x: hidden;
+    width: 100%;
   }
 
   .button {
@@ -114,4 +115,8 @@
   .blurry {
     filter: blur(50px);
   }
+}
+
+.nav {
+  z-index: 1000;
 }

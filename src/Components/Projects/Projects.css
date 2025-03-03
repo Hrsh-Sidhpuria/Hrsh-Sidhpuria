@@ -22,14 +22,12 @@
 
 @media screen and (max-width: 480px) {
   .projects {
+    margin-top: -5rem;
     position: relative;
-    margin-top: -5%;
-    width: 37%;
-    left: -5%;
     transform: scale(0.7);
   }
-
   .p-projects {
-    width: 100%;
+    width: 140%;
+    margin-left: -20%;
   }
 }

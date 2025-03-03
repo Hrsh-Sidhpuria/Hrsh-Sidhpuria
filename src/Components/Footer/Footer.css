@@ -69,3 +69,35 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .f-footer {
+    background-color: #06040d;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    height: 18vh;
+  }
+  .f-container {
+    transform: scale(0.5);
+    margin-bottom: 0;
+  }
+  .f-follow {
+    width: 340%;
+    margin-left: -170%;
+    margin-top: -15%;
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.5);
+  }
+  .f-about {
+    position: absolute;
+    margin-top: -20%;
+    transform: scale(2);
+  }
+  .f-copyright {
+    position: absolute;
+    bottom: -190px;
+    margin-left: 10%;
+  }
+}

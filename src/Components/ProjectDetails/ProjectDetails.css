@@ -134,6 +134,7 @@
 }
 
 .pd-back-btn {
+  visibility: visible;
   background-color: yellow;
   width: 100px;
   position: fixed;
@@ -176,4 +177,108 @@
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    transform: scale(0.6);
+    margin-top: -120%;
+  }
+
+  .proj-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+
+  .pd-intro {
+    width: 100%;
+    min-height: 55vh;
+    max-height: 90vh;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pd-left {
+    flex: 1;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 110%;
+  }
+
+  .pd-right {
+    transform: scale(1.5);
+    margin-top: 100px;
+    margin-left: -480px;
+    width: 200%;
+    height: 200%;
+    color: white;
+    flex: 1;
+  }
+
+  .pd-link {
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+    margin-right: 110%;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+  }
+
+  .pd-link a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .pd-img-name {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--black);
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pd-proj-info {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+
+    margin-bottom: 4rem;
+  }
+
+  .pd-proj-info-title-left {
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 5rem;
+  }
+
+  .pd-proj-info {
+    margin-top: -50%;
+  }
+
+  .pd-back-btn {
+    visibility: hidden;
+  }
+
+  .pd-proj-info-right {
+    margin-top: 90%;
+    margin-left: -100%;
+  }
+
+  .pd-footer {
+    width: 170%;
+    margin-left: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -3,6 +3,7 @@ import "./SlidingDiv.css";
 
 function SlidingDiv({ tech }) {
   return (
+    <div id="slidingdiv">
     <div className="static-container">
       <div className="static-track">
         {tech.map((item, index) => (
@@ -16,7 +17,7 @@ function SlidingDiv({ tech }) {
           </div>
         ))}
       </div>
-    </div>
+    </div></div>
   );
 }
 

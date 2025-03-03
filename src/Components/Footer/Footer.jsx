@@ -37,7 +37,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
+      
       <div className="f-copyright">
         © {currentYear} Harsh Sidhpuria. All rights reserved.
       </div>

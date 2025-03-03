@@ -29,7 +29,7 @@ function Intro() {
                 <Jobtitle />
               </div>
             </div>
-            <div className="horizontal-line">
+            <div className="horizontal-line i-hr">
               <hr size="2" />
             </div>
             <div className="i-summary">

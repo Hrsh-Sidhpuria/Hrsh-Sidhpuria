@@ -41,15 +41,17 @@ function Technologies() {
   }
 
   return (
-    <div className="Technology">
-      <div className="t-title">Technologies known</div>
-      <div className="t-sliding-div">
-        <SlidingDiv tech={my_technology} />
-      </div>
-      <div className="t-btn">
-        <button class="t-button" onClick={navigateTOTechPage} role="button">
-          View All Technologies
-        </button>
+    <div id="technologies">
+      <div className="Technology">
+        <div className="t-title">Technologies known</div>
+        <div className="t-sliding-div">
+          <SlidingDiv tech={my_technology} />
+        </div>
+        <div className="t-btn">
+          <button class="t-button" onClick={navigateTOTechPage} role="button">
+            View All Technologies
+          </button>
+        </div>
       </div>
     </div>
   );

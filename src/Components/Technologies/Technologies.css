@@ -1,3 +1,8 @@
+#technologies {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .Technology {
   position: relative;
   display: flex;
@@ -54,6 +59,11 @@
   z-index: 0;
 }
 
+.t-sliding-div {
+  width: 100%;
+  left: 0;
+  overflow-x: hidden;
+}
 @media (min-width: 768px) {
   .t-button {
     padding: 19px 32px;
@@ -136,26 +146,20 @@
   opacity: 0.24;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+  #technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .Technology {
     height: auto;
     margin-top: 1rem;
     gap: 2rem;
     padding: 1.5rem;
   }
-
-  .t-title {
-    font-size: clamp(2rem, 5vw, 2.5rem);
-  }
-
-  .t-button {
-    padding: 18px 28px;
-    font-size: clamp(14px, 4vw, 16px);
-  }
-}
-
-@media screen and (max-width: 480px) {
   .Technology {
+    margin-bottom: 10%;
     width: 22%;
     height: auto;
     margin-top: 0.5rem;
@@ -165,13 +169,14 @@
 
   .t-title {
     font-size: clamp(1.8rem, 6vw, 2.2rem);
-    margin-left: 16%;
-    width: 130%;
+    width: 350%;
+
     display: flex;
     justify-content: center;
   }
 
   .t-button {
+    margin-top: -30%;
     padding: 16px 24px;
     font-size: clamp(12px, 5vw, 14px);
   }
@@ -180,5 +185,10 @@
     margin-left: 15%;
     display: flex;
     justify-content: center;
+  }
+  .t-sliding-div {
+    transform: scale(0.7);
+    width: 650%;
+    margin: 0;
   }
 }

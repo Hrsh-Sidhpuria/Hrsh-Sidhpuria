@@ -1,3 +1,62 @@
+.navbar {
+  color: white;
+  padding: 15px;
+  position: fixed;
+}
+
+.menu-btn {
+  visibility: hidden;
+}
+
+.sidebar {
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #222;
+  padding-top: 60px;
+  transition: 0.4s ease-in-out;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #444;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.overlay {
+  z-index: 1008;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .n-wrapper {
   display: flex;
   height: auto;
@@ -19,6 +78,7 @@
   gap: 1rem;
   align-items: center;
   font-weight: 400;
+  visibility: visible;
 }
 
 .n-list ul {
@@ -39,8 +99,79 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+.media-n-right {
+  visibility: hidden;
+}
+
+.btn-for-media {
+  position: absolute;
+}
 @media screen and (max-width: 480px) {
-  .n-list {
-    display: none;
+  .menu-btn {
+    visibility: visible;
+    background-color: var(--black);
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 34px;
+    cursor: pointer;
+    color: white;
+    z-index: 9;
+    padding-top: 0;
+    margin-top: -30px;
+    top: 0;
+  }
+
+  .n-wrapper {
+    position: relative;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 2rem;
+  }
+  .n-right {
+    position: absolute;
+  }
+
+  .n-left {
+    right: 40%;
+    position: relative;
+  }
+  .n-name {
+  }
+  .n-left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex: 1;
+    gap: 2rem;
+    margin-left: 2.3rem;
+  }
+
+  .n-right {
+    visibility: hidden;
+  }
+  .media-n-right {
+    visibility: visible;
+  }
+  .nav-wrapper {
+    width: 100%;
+  }
+
+  .menu-btn {
+    z-index: 3;
+  }
+
+  .btn-for-media {
+    visibility: visible;
+    position: relative;
   }
 }

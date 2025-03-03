@@ -32,6 +32,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  #About {
+    margin-top: 12rem;
+  }
   .about {
     max-width: 85vw;
     padding: 1.5rem;
@@ -44,7 +47,7 @@
 
   .a-desc {
     font-size: clamp(0.9rem, 2vw, 1rem);
-    padding: 1rem;
+    padding: 0rem;
   }
 }
 

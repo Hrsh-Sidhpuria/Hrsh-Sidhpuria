@@ -1,8 +1,9 @@
 /* Container for the static visible area */
 .static-container {
-  width: 1300px;
-  overflow: hidden;
-  position: relative;
+  width: 1400px;
+  max-width: 1920px;
+
+  overflow-x: hidden;
 }
 
 .static-track {

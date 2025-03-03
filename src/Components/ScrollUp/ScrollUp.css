@@ -4,7 +4,7 @@
   border: 1px var(--black) solid;
   position: fixed;
   right: 1rem;
-  bottom: 1rem; /* Adjusted to be visible */
+  bottom: 1rem; 
   display: inline-flex;
   padding: 8px;
   color: white;

@@ -52,6 +52,9 @@ function ContactMe() {
           }, 10000);
         }
       );
+    setEmail("");
+    setName("");
+    setMessage("");
   };
   return (
     <div>
@@ -73,7 +76,7 @@ function ContactMe() {
           </div>
         </div>
         <div className="c-right">
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
             <input
               type="text"
               id="name"
@@ -120,11 +123,16 @@ function ContactMe() {
               </div>
             )}
           </form>
-          <div className="s-response">{successresp}</div>
-          <div className="e-response">{errorresp}</div>
+          <div className="c-message">
+            <div className="s-response" style={{ color: "green" }}>
+              {successresp}
+            </div>
+            <div className="e-response" style={{ color: "red" }}>
+              {errorresp}
+            </div>
+          </div>
           <label></label>
           <div id="error" title={errormsg}></div>
-          <div id="success-msg"></div>
         </div>
       </div>
     </div>

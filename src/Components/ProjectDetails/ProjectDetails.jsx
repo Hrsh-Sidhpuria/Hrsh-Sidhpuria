@@ -21,7 +21,7 @@ function ProjectDetails() {
     navigate(-1);
   };
   return (
-    <div>
+    <div className="project-details">
       <div className="pd-back-btn">
         <button className="pd-b-btn" onClick={goback}>
           <i className="ri-arrow-left-line"></i>
