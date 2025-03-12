@@ -60,7 +60,7 @@
   .about {
     position: relative;
     margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 0%;
 
     padding: 1rem;
     gap: 1rem;
@@ -72,8 +72,12 @@
   }
 
   .a-desc {
-    font-size: 1rem;
+    display: flex;
+    margin-left: 10px;
+    width: 135%;
+
+    font-size: 0.2rem;
     gap: 0.5rem;
-    padding: 0.5rem;
+    padding: 10px;
   }
 }

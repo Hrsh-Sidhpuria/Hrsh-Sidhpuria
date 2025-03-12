@@ -3,7 +3,7 @@
   background-color: #e6eaf4;
   z-index: -9;
   width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

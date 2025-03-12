@@ -26,8 +26,16 @@
     position: relative;
     transform: scale(0.7);
   }
+  .p-main {
+    height: 90vh;
+  }
   .p-projects {
     width: 140%;
     margin-left: -20%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .p-main {
+    height: 100vh;
   }
 }

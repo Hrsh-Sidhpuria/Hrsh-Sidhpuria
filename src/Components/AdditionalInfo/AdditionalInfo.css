@@ -86,3 +86,9 @@
     top: -80%;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .add-info {
+    height: 100vh;
+  }
+}

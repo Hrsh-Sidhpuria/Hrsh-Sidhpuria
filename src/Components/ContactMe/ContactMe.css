@@ -273,8 +273,27 @@ input:checked + .slider:before {
     transform: scale(0.5);
     margin-top: -50%;
   }
+  .c-right {
+    top: 10%;
+    width: 200%;
+    margin-left: -52%;
+    padding: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-left {
+    top: 20%;
+    height: 40vh;
+    padding-left: 10px;
+    margin-left: 30px;
+    padding-top: 3rem;
+  }
   .contact-me {
-    visibility: hidden;
+    width: 150%;
+    display: flex;
+    justify-content: space-evenly;
+    transform: scale(1.8);
   }
 
   .c-title1 {
@@ -293,18 +312,9 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
   }
-  .c-right {
-    width: 200%;
-    margin-left: -49%;
-    margin-top: -350%;
-    padding: -10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   .c-btn {
-    margin-left: 10%;
+    margin-left: 0%;
     width: 100%;
   }
 
@@ -329,5 +339,21 @@ input:checked + .slider:before {
     padding: 1rem 1rem;
     margin-bottom: 1.5rem;
     outline: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  input,
+  textarea {
+    margin-left: -60%;
+    width: 200%;
+  }
+  .c-right {
+    width: 200%;
+    margin-left: -49%;
+    padding: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
