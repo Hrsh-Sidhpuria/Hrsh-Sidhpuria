@@ -94,9 +94,9 @@ function ProjectDetails() {
         )}
         <div className="pd-proj-info">
           <div className="pd-proj-info-title-left">
-            <p className="pd-proj-p1">project</p>
+            <p className="pd-proj-p1">Project</p>
             <p className="pd-proj-p2">Additional</p>
-            <p className="pd-proj-p3">information</p>
+            <p className="pd-proj-p3">Information</p>
           </div>
           <div className="pd-proj-info-right">
             <ul>

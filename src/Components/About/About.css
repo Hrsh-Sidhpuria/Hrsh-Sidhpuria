@@ -60,9 +60,10 @@
   .about {
     position: relative;
     margin-top: 10%;
-    margin-left: 0%;
-
-    padding: 1rem;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
   }
 
@@ -73,11 +74,10 @@
 
   .a-desc {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 135%;
-
     font-size: 0.2rem;
     gap: 0.5rem;
-    padding: 10px;
+    padding: 0px;
   }
 }

@@ -14,6 +14,10 @@ import github from "../../image/TechLogo/github.png";
 import bootstrap from "../../image/TechLogo/bootstrap.png";
 import c from "../../image/TechLogo/c.png";
 import dsa from "../../image/TechLogo/dsa.png";
+import nodejs from "../../image/TechLogo/nodejs.png";
+import expressjs from "../../image/TechLogo/express.png";
+import mongodb from "../../image/TechLogo/mongodb.png";
+import java from "../../image/TechLogo/java.png";
 
 function AllTech() {
   const my_technology = [
@@ -31,6 +35,10 @@ function AllTech() {
     { logo: bootstrap, name: "Bootstrap" },
     { logo: c, name: "C Programming" },
     { logo: dsa, name: "Data Structure and Algorithm" },
+    { logo: java, name: "Java" },
+    { logo: nodejs, name: "Node js" },
+    { logo: expressjs, name: "Express js" },
+    { logo: mongodb, name: "MongoDB" },
   ];
 
   useEffect(() => {

@@ -137,7 +137,7 @@ const ProjectsListProvider = ({ children }) => {
       isGitLink: true,
       detail_decs:
         "I have developed a Chrome Extension that enhances browser functionality using HTML, CSS, and JavaScript. One example is a Color Picker Extension, which allows users to effortlessly pick colors from any web page and instantly view their HEX, RGB, or HSL codes. This tool is particularly useful for designers, developers, and content creators, enabling them to extract and use colors without needing external software. The extension integrates seamlessly into the browser, providing a simple yet powerful UI for selecting and copying color codes. By leveraging Chrome’s Extension APIs, it ensures smooth interaction with web pages, making color selection a quick and efficient process.",
-      technology: ["", "", "", "", ""],
+      technology: ["HTML", "CSS", "Javascript"],
       features: [
         " Easy Color Selection",
         "Displays Color Codes",

@@ -144,8 +144,7 @@
     right: 40%;
     position: relative;
   }
-  .n-name {
-  }
+
   .n-left {
     align-items: center;
     display: flex;
@@ -173,5 +172,11 @@
   .btn-for-media {
     visibility: visible;
     position: relative;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .n-wrapper {
+    padding-left: 60px;
   }
 }

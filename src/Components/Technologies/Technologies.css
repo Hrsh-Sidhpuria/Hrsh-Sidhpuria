@@ -168,8 +168,8 @@
   }
 
   .t-title {
-    font-size: clamp(1.8rem, 6vw, 2.2rem);
-    width: 350%;
+    font-size: clamp(2rem, 6vw, 2.2rem);
+    width: 490%;
 
     display: flex;
     justify-content: center;

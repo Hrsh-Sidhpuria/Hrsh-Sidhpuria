@@ -38,7 +38,7 @@ function ContactMe() {
           );
           setTimeout(() => {
             setSuccessResp("");
-          }, 3000);
+          }, 10000);
         },
         (error) => {
           console.log(error.text);

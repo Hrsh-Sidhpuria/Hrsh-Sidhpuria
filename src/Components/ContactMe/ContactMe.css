@@ -138,18 +138,18 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--primary-color);
+  color: gray;
   padding-left: 5px;
 }
 
 input,
 textarea {
-  color: var(--primary-color);
+  color: black;
   font-weight: 500;
   background: var(--bg-color);
   border: 3px #0085b5 solid;
   border-radius: 20px;
-
+  opacity: 0.7;
   padding: 0.5rem 0;
   margin-bottom: 1rem;
   outline: none;
@@ -187,7 +187,8 @@ textarea:hover,
 }
 
 .submit-btn:active {
-  opacity: 0.8;
+  opacity: 1;
+  color: black;
 }
 
 .theme-switch-wrapper {
@@ -293,7 +294,7 @@ input:checked + .slider:before {
     width: 150%;
     display: flex;
     justify-content: space-evenly;
-    transform: scale(1.8);
+    transform: scale(2);
   }
 
   .c-title1 {

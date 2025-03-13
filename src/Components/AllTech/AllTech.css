@@ -23,8 +23,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 30px;
-  width: 90%; /* Cover almost full width */
-  max-width: 1200px; /* Prevents it from stretching too much on large screens */
+  width: 90%;
+  max-width: 1200px;
   justify-content: center;
   align-items: center;
 }
@@ -55,4 +55,27 @@
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--black);
+}
+
+@media screen and (max-width: 480px) {
+  .tech-grid {
+    width: 100%;
+  }
+  .tech-text {
+    transform: scale(0.7);
+    width: 140%;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tech-grid {
+    width: 100%;
+    margin-left: -22px;
+  }
+  .tech-text {
+    transform: scale(0.7);
+    width: 140%;
+    margin-left: -20px;
+  }
 }

@@ -80,6 +80,13 @@
   margin-left: 95px;
 }
 
+.i-icons a img {
+  transition: transform 0.3s ease;
+}
+.i-icons a img:hover {
+  transform: scale(1.2);
+}
+
 .i-icons > * {
   transform: scale(0.8);
 }
