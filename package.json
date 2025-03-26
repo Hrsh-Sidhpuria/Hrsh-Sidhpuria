@@ -14,8 +14,12 @@
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.18.2",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^15.4.1",
     "react-router-dom": "^7.1.5",
     "react-scroll": "^1.9.0",
     "remixicon": "^4.6.0",

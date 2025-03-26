@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import LanguageSelection from "../LanguageSelection/LanguageSelection";
 
 const Navbar = () => {
   return (
@@ -8,6 +9,9 @@ const Navbar = () => {
       <div className="nav-wrapper"></div>
       <div className="n-left">
         <div className="n-name">Portfolio.</div>
+        <div className="nav-language-selection">
+          <LanguageSelection />
+        </div>
       </div>
       <div className="n-right">
         <div className="n-list">

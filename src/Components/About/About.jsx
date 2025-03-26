@@ -2,13 +2,15 @@ import "./About.css";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
   useScrollReveal(".a-desc", { origin: "right", delay: 400 });
   return (
     <div>
       <div className="about" id="About">
-        <div className="a-title">About</div>
+        <div className="a-title">{t("about-title")}</div>
         <div className="a-desc">
           <div className="description">
             <span>

@@ -13,8 +13,10 @@ import Resume from "./Harsh Sidhpuria Resume.pdf";
 import { motion } from "framer-motion";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 import Jobtitle from "../JobTitle/Jobtitle";
+import { useTranslation } from "react-i18next";
 
 function Intro() {
+  const { t } = useTranslation();
   const transition = { duration: 2, type: "spring" };
   useScrollReveal(".i-left");
   return (
@@ -22,8 +24,8 @@ function Intro() {
       <div className="intro">
         <div className="i-left">
           <div className="i-Introduction">
-            <div className="i-greet">Hello, it's me</div>
-            <div className="i-name">Harsh Sidhpuria</div>
+            <div className="i-greet">{t("greeting.line1")}</div>
+            <div className="i-name">{t("greeting.line2")}</div>
             <div className="i-jobTitle i-greet">
               <div className="i-job-title">
                 <Jobtitle />
@@ -32,18 +34,12 @@ function Intro() {
             <div className="horizontal-line i-hr">
               <hr size="2" />
             </div>
-            <div className="i-summary">
-              Result-oriented software developer with a background in computer
-              engineering, having a good sense of solving technical problems,
-              learning new technologies, and implementing effective projects
-              that would create teamwork in innovative solutions in line with
-              the organization's objectives.
-            </div>
+            <div className="i-summary">{t("brief-about")}</div>
             <div className="cv-button">
               <a href={Resume} download style={{ textDecoration: "none" }}>
                 <button class="button i-button" role="button">
                   <span class="text" title="Download Resume">
-                    Download CV
+                    {t("downloadCVBtn")}
                   </span>
                 </button>
               </a>

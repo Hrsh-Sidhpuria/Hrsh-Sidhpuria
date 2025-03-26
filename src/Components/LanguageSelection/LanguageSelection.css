@@ -1,0 +1,23 @@
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.language-option {
+  font-size: x-large;
+}
+
+.language-selector select {
+  padding: 2px 5px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.language-selector select:focus {
+  outline: none;
+  border-color: #007bff;
+}

@@ -12,6 +12,7 @@ import Technologies from "./Components/Technologies/Technologies";
 import AllTech from "./Components/AllTech/AllTech";
 import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
 import { ProjectsListProvider } from "./Context/ProjectListContext";
+import "./i18n";
 
 function App() {
   return (

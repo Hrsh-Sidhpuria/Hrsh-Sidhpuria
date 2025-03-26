@@ -38,7 +38,7 @@ function AllTech() {
     { logo: java, name: "Java" },
     { logo: nodejs, name: "Node js" },
     { logo: expressjs, name: "Express js" },
-    { logo: mongodb, name: "MongoDB" },
+    { logo: gmongodb, name: "MongoDB" },
   ];
 
   useEffect(() => {
