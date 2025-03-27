@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useTransition } from "react";
 import "./ProjectSwiper.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import visit from "../../image/external-link.png";
 import "swiper/css";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function ProjectSwiper({ myproj }) {
   const navigate = useNavigate();
@@ -23,6 +24,10 @@ function ProjectSwiper({ myproj }) {
   function navigateToProjectDetails(index) {
     navigate(`/projectDetails/${index}`);
   }
+  const { t } = useTranslation();
+  const projlist = t("project-list");
+  const { ProjectsList } = projlist;
+  console.log(ProjectsList);
 
   return (
     <div className="projectswiper">
@@ -46,8 +51,8 @@ function ProjectSwiper({ myproj }) {
         {myproj.map((proj, index) => (
           <SwiperSlide>
             <div className="Slider-card">
-              <div className="sc-title" title={proj.name}>
-                {proj.name}
+              <div className="sc-title" title={ProjectsList[index].name}>
+                {ProjectsList[index].name}
               </div>
               <img
                 src={proj.img}
@@ -66,15 +71,15 @@ function ProjectSwiper({ myproj }) {
                   </a>
                 </div>
               )}
-              <div className="sc-brief" title={proj.brief}>
-                {proj.brief}
+              <div className="sc-brief" title={ProjectsList[index].brief}>
+                {ProjectsList[index].brief}
               </div>
               <div className="sc-btn">
                 <button
                   class="sc-button"
                   onClick={() => navigateToProjectDetails(index)}
                 >
-                  Read More
+                  {t("read-more-bnt")}
                 </button>
 
                 {proj.isGitLink && (
@@ -90,7 +95,7 @@ function ProjectSwiper({ myproj }) {
                       </div>
                       <div class="cube">
                         <span class="side front">Github</span>
-                        <span class="side top">check it on github</span>
+                        <span class="side top">{t("check-git")}</span>
                       </div>
                     </div>
                   </a>

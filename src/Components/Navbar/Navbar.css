@@ -72,6 +72,8 @@
   flex: 1;
   gap: 2rem;
 }
+.nav-language-selection {
+}
 
 .n-right {
   display: flex;
@@ -107,6 +109,7 @@
 .btn-for-media {
   position: absolute;
 }
+
 @media screen and (max-width: 480px) {
   .menu-btn {
     visibility: visible;
@@ -139,8 +142,14 @@
   .n-right {
     position: absolute;
   }
+  .nav-language-selection {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+  }
 
   .n-left {
+    top: -7px;
     right: 40%;
     position: relative;
   }

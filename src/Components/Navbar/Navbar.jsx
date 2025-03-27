@@ -1,9 +1,11 @@
 import "./Navbar.css";
-import React, { useState } from "react";
 import { Link } from "react-scroll";
 import LanguageSelection from "../LanguageSelection/LanguageSelection";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="n-wrapper">
       <div className="nav-wrapper"></div>
@@ -20,13 +22,13 @@ const Navbar = () => {
               <li>Home</li>
             </Link>
             <Link spy={true} to="About" smooth={true}>
-              <li>About</li>
+              <li>{t("nav-about")}</li>
             </Link>
             <Link spy={true} to="Technologies" smooth={true}>
-              <li>Technologies</li>
+              <li>{t("nav-tech")}</li>
             </Link>
             <Link spy={true} to="Projects" smooth={true}>
-              <li>Projects</li>
+              <li>{t("nav-project")}</li>
             </Link>
           </ul>
         </div>

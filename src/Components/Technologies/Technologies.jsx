@@ -21,6 +21,7 @@ import dsa from "../../image/TechLogo/dsa.png";
 import SlidingDiv from "../SlidingDiv/SlidingDiv";
 import "./Technologies.css";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Technologies() {
   const navigate = useNavigate();
@@ -48,17 +49,17 @@ function Technologies() {
   function navigateTOTechPage() {
     navigate("/technologies");
   }
-
+  const { t } = useTranslation();
   return (
     <div id="technologies">
       <div className="Technology">
-        <div className="t-title">Technologies known</div>
+        <div className="t-title">{t("technologies-known-title")}</div>
         <div className="t-sliding-div">
           <SlidingDiv tech={my_technology} />
         </div>
         <div className="t-btn">
           <button class="t-button" onClick={navigateTOTechPage} role="button">
-            View All Technologies
+            {t("view-all-tech-btn")}
           </button>
         </div>
       </div>

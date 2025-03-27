@@ -5,21 +5,25 @@ import React, { Fragment, useContext, useEffect } from "react";
 import "remixicon/fonts/remixicon.css";
 import v_chrome_extension from "../../videos/Color Picker - Chrome Extension.mp4";
 import { ProjectsListContext } from "../../Context/ProjectListContext";
+import { useTranslation } from "react-i18next";
 
 function ProjectDetails() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const { t } = useTranslation();
+  const { ProjectsList } = t("project-list");
   const navigate = useNavigate();
   const { id } = useParams();
   const project = useContext(ProjectsListContext);
-  const tech = project[id].technology;
+  const tech = ProjectsList[id].technology;
   const videoAvailable = project[id].videoAvailable;
-  const feature = project[id].features;
+  const feature = ProjectsList[id].features;
   const thumbnail = project[id].img;
   const goback = () => {
     navigate(-1);
   };
+
   return (
     <div className="project-details">
       <div className="pd-back-btn">
@@ -29,12 +33,12 @@ function ProjectDetails() {
         </button>
       </div>
       <div className="project-container">
-        <div className="proj-title">{project[id].name}</div>
+        <div className="proj-title">{ProjectsList[id].name}</div>
         <div className="pd-intro">
           <div className="pd-left">
-            {project[id].detail_decs}
+            {ProjectsList[id].detail_decs}
             <div className="pd-proj-tech">
-              <div className="pd-proj-tech-title">Technologies Used</div>
+              <div className="pd-proj-tech-title">{t("tech-used-title")}</div>
               <ul>
                 {tech.map((item, index) => (
                   <li>{item}</li>
@@ -52,7 +56,7 @@ function ProjectDetails() {
                 controls
                 muted
               >
-                Your browser does not support the video tag.
+                {t("unsupport-vid-tag-warning")}
               </video>
             )}
             {!videoAvailable && (
@@ -77,7 +81,7 @@ function ProjectDetails() {
             <div className="sc-btn ">
               <a href={project[id].url}>
                 <button className="sc-button pd-btn-width">
-                  Visit Website
+                  {t("visit-website")}
                 </button>
               </a>
             </div>
@@ -86,7 +90,7 @@ function ProjectDetails() {
 
         {project[id].ImagesAvailable && (
           <Fragment>
-            <div className="pd-img-name">Images</div>
+            <div className="pd-img-name">{t("proj-images-title")}</div>
             <div className="pd-img-container">
               <ImageSlider img={project[id].Images} />
             </div>
@@ -94,9 +98,9 @@ function ProjectDetails() {
         )}
         <div className="pd-proj-info">
           <div className="pd-proj-info-title-left">
-            <p className="pd-proj-p1">Project</p>
-            <p className="pd-proj-p2">Additional</p>
-            <p className="pd-proj-p3">Information</p>
+            <p className="pd-proj-p1">{t("pd-proj-p1")}</p>
+            <p className="pd-proj-p2">{t("pd-proj-p2")}</p>
+            <p className="pd-proj-p3">{t("pd-proj-p3")}</p>
           </div>
           <div className="pd-proj-info-right">
             <ul>
@@ -106,7 +110,7 @@ function ProjectDetails() {
             </ul>
           </div>
         </div>
-        <div className="pd-footer">Thank You</div>
+        <div className="pd-footer">{t("thank-you")}</div>
       </div>
     </div>
   );

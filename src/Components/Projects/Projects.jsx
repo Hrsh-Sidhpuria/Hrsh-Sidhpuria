@@ -8,8 +8,9 @@ import chromeExtension from "../../image/Projects/Chrome Extension.png";
 import greybg from "../../image/Projects/dummy image.jpg";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
-import React, { useContext } from "react";
+import React, { useContext, useTransition } from "react";
 import { ProjectsListContext } from "../../Context/ProjectListContext";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
   useScrollReveal(".p-projects");
@@ -84,12 +85,12 @@ function Projects() {
   // ];
 
   const myProjects = useContext(ProjectsListContext);
-
+  const { t } = useTranslation();
   return (
     <div>
       <div className="projects">
         <div className="p-main">
-          <div className="p-title"> Projects</div>
+          <div className="p-title"> {t("projects-title")}</div>
 
           <div className="p-projects">
             <ProjectSwiper myproj={myProjects} />

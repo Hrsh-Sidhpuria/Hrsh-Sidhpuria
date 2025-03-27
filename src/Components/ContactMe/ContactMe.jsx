@@ -5,8 +5,10 @@ import React, { useRef, useState } from "react";
 import Loader from "../Loader/Loader";
 import whatsapp from "../../image/WA.png";
 import call from "../../image/call.png";
+import { useTranslation } from "react-i18next";
 
 function ContactMe() {
+  const { t } = useTranslation();
   useScrollReveal(".c-left", { origin: "left", delay: 100 });
   useScrollReveal(".c-right", { origin: "bottom", delay: 800 });
   const form = useRef();
@@ -33,9 +35,7 @@ function ContactMe() {
         (result) => {
           console.log(result.text);
           setLoading(false);
-          setSuccessResp(
-            "Thank You for contacting me .I will contact you in a while."
-          );
+          setSuccessResp(t("contact-success-msg"));
           setTimeout(() => {
             setSuccessResp("");
           }, 10000);
@@ -44,9 +44,7 @@ function ContactMe() {
           console.log(error.text);
           setErrorMsg(error.text);
           setLoading(false);
-          setErrorResp(
-            "Something Went Wrong. Please try again later or else contact through email or linkedin."
-          );
+          setErrorResp(t("contact-error-msg"));
           setTimeout(() => {
             setErrorResp("");
           }, 10000);
@@ -60,8 +58,8 @@ function ContactMe() {
     <div>
       <div className="c-body">
         <div className="c-left">
-          <div className="c-title1">Get in Touch</div>
-          <div className="c-title2">Contact me</div>
+          <div className="c-title1">{t("contact-title1")}</div>
+          <div className="c-title2">{t("contact-title2")}</div>
 
           <div className="horizontal-line">
             <hr size="2" />
@@ -81,7 +79,7 @@ function ContactMe() {
               type="text"
               id="name"
               name="from_name"
-              placeholder="Name"
+              placeholder={t("contact.c1")}
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
@@ -91,7 +89,7 @@ function ContactMe() {
               type="email"
               id="email"
               name="from_email"
-              placeholder="Email Address"
+              placeholder={t("contact.c2")}
               value={email}
               required
               onChange={(e) => setEmail(e.target.value)}
@@ -99,7 +97,7 @@ function ContactMe() {
 
             <textarea
               rows="6"
-              placeholder="Message"
+              placeholder={t("contact.c3")}
               id="message"
               name="message"
               value={message}
@@ -118,7 +116,7 @@ function ContactMe() {
                   id="submit"
                   name="submit"
                 >
-                  Send
+                  {t("send-btn")}
                 </button>
               </div>
             )}

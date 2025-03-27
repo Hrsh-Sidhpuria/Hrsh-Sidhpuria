@@ -18,6 +18,7 @@ import nodejs from "../../image/TechLogo/nodejs.png";
 import expressjs from "../../image/TechLogo/express.png";
 import mongodb from "../../image/TechLogo/mongodb.png";
 import java from "../../image/TechLogo/java.png";
+import { useTranslation } from "react-i18next";
 
 function AllTech() {
   const my_technology = [
@@ -38,16 +39,17 @@ function AllTech() {
     { logo: java, name: "Java" },
     { logo: nodejs, name: "Node js" },
     { logo: expressjs, name: "Express js" },
-    { logo: gmongodb, name: "MongoDB" },
+    { logo: mongodb, name: "MongoDB" },
   ];
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const { t } = useTranslation();
 
   return (
     <div className="all-tech-container">
-      <h2 className="tech-title">Technologies Known</h2>
+      <h2 className="tech-title">{t("technologies-known-title")}</h2>
       <div className="tech-text">
         Technologies that I have worked with and I'm interested in.
       </div>

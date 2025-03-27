@@ -1,42 +1,47 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import "./LanguageSelection.css"; // Optional styling
+import "./LanguageSelection.css";
+import translationPng from "../../image/translation.png";
+import { select } from "framer-motion/client";
 
 const languages = [
   { code: "en", language: "English" },
+  { code: "hi", language: "Hindi" },
+  { code: "gu", language: "Gujarati" },
   { code: "fr", language: "French" },
-  { code: "ar", language: "Arabic" },
-  { code: "gj", language: "Gujarati" },
+  { code: "kn", language: "kannada" },
 ];
 
 function LanguageSelection() {
   const { i18n } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState(
-    localStorage.getItem("selectedLanguage") || "en"
-  );
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
 
   useEffect(() => {
-    if (localStorage.getItem("selectedLanguage")) {
-      i18n.changeLanguage(localStorage.getItem("selectedLanguage"));
-    }
-  }, [i18n]);
+    setSelectedLanguage(i18n.language);
+  }, [i18n.language]);
+  useEffect(() => {
+    document.body.dir = i18n.dir();
+  }, [i18n, i18n.language]);
 
   const changeLanguage = (lng) => {
-    localStorage.setItem("selectedLanguage", lng);
-    setSelectedLanguage(lng);
     i18n.changeLanguage(lng);
   };
 
   return (
     <div className="language-selector">
+      <img
+        src={translationPng}
+        alt="png"
+        onFocus={select}
+        className="language-img"
+      />
       <select
         value={selectedLanguage}
         onChange={(e) => changeLanguage(e.target.value)}
-        className="language-dropdown"
       >
         {languages.map((lang) => (
-          <option key={lang.code} value={lang.code}>
-            {lang.code}
+          <option key={lang.code} value={lang.code} className="language-menu">
+            {lang.language}
           </option>
         ))}
       </select>

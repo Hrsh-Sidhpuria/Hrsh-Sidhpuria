@@ -7,43 +7,55 @@
     "line2": "Harsh Sidhpuria",
     "line3": "I'm"
   },
+  "job-greet": "I'm",
+  "job-title1": "Full Stack Developer",
+  "job-title2": "Web Developer",
+  "job-title3": "Software Developer",
   "brief-about": "Result-oriented software developer with a background in computer engineering, having a good sense of solving technical problems, learning new technologies, and implementing effective projects that would create teamwork in innovative solutions in line with the organization's objectives.",
   "downloadCVBtn": "Download CV",
   "about-title": "About",
-  "about": "Hi, I am Harsh Sidhpuria, a passionate software developer with a solid computer engineering background. I have experience in full-stack development with C, C#, Python, JavaScript, and RESTful API development.My projects include an intuitive campus navigation system and real-time emotion detection. With ASP.NET Core, advanced algorithms, and teamwork, I work towards the impact and efficiency of results.Besides coding, I love traveling, reading, and learning new technologies to stay ahead in the ever-evolving tech world.—check out my work and connect with me!",
+  "about": {
+    "b1": "Hi, I am Harsh Sidhpuria, a passionate software developer with a solid computer engineering background. I have experience in full-stack development with C, C#, Python, JavaScript, and RESTful API development.",
+    "b2": "My projects include an intuitive campus navigation system and real-time emotion detection. With ASP.NET Core, advanced algorithms, and teamwork, I work towards the impact and efficiency of results.",
+    "b3": "Besides coding, I love traveling, reading, and learning new technologies to stay ahead in the ever-evolving tech world.",
+    "b4": "—check out my work and connect with me!"
+  },
   "technologies-known-title": "Technologies known",
   "view-all-tech-btn": "View All Technologies",
   "projects-title": "Projects",
-  "add-details-title": "My Additional Information",
+  "add-details-title1": "My Additional",
+  "add-details-title2": "Information",
   "add-detail-breif": "I speak English, Hindi, and Gujarati, which allows me to connect with a wide range of people. I enjoy learning about new technologies, traveling for fresh experiences, and reading to expand my knowledge. My effective communication, critical thinking, and decision-making skills help me tackle challenges and adapt rapidly.",
   "language-title": "Languages Known",
-  "language": {
-    "l1": "English",
-    "l2": "Hindi",
-    "l3": "Gujarati"
-  },
+  "language": ["English", "Hindi", "Gujarati"],
   "interest-title": "Interest",
-  "interest": {
-    "i1": "Continuous Learning",
-    "i2": "Travelling",
-    "i3": "Book Reading"
-  },
+  "interest": ["Continuous Learning", "Travelling", "Book Reading"],
   "softskill-title": "Soft Skill",
-  "softskill": {
-    "i1": "Communication",
-    "i2": "Critical thinking",
-    "i3": "Decison Making"
-  },
-  "contact-title": "Get in Touch Contact me",
+  "softskill": ["Communication", "Critical thinking", "Decison Making"],
+  "contact-title1": "Get in Touch",
+  "contact-title2": "Contact me",
   "contact": {
     "c1": "Name",
     "c2": "Email Address",
     "c3": "Message"
   },
   "send-btn": "SEND",
+  "contact-success-msg": "Thank You for contacting me .I will contact you in a while.",
+  "contact-error-msg": "Something Went Wrong. Please try again later or else contact through email or linkedin.",
   "follow-me": "Follow Me On",
   "footer-about-title": "About Me",
   "footer-about": "Passionate developer building creative web experiences. Let's collaborate and create something amazing!",
+  "check-git": "Check it on Github",
+  "read-more-bnt": "Read More",
+  "tech-used-title": "Technologies Used",
+  "unsupport-vid-tag-warning": "Your browser does not support the video tag.",
+  "visit-website": "Visit Website",
+  "proj-images-title": "Images",
+  "pd-proj-p1": "Project",
+  "pd-proj-p2": "Additional",
+  "pd-proj-p3": "Information",
+  "thank-you": "Thank You",
+
   "project-list": {
     "ProjectsList": [
       {
