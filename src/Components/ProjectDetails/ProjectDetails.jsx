@@ -6,8 +6,15 @@ import "remixicon/fonts/remixicon.css";
 import v_chrome_extension from "../../videos/Color Picker - Chrome Extension.mp4";
 import { ProjectsListContext } from "../../Context/ProjectListContext";
 import { useTranslation } from "react-i18next";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 function ProjectDetails() {
+  useScrollReveal(".pd-left", { origin: "left" });
+  useScrollReveal(".pd-right", { origin: "right" });
+  useScrollReveal(".pd-link", { origin: "bottom" });
+  useScrollReveal(".pd-proj-info-title-left", { origin: "left" });
+  useScrollReveal(".pd-proj-info-right", { origin: "right" });
+  useScrollReveal(".pd-footer", { origin: "bottom" });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

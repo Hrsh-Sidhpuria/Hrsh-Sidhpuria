@@ -12,14 +12,14 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
-    debug: true,
+    debug: false,
     supportedLngs: availableLanguages,
     nonExplicitSupportedLngs: true,
     returnObjects: true,
-    detection: {
-      order: ["localStorage", "navigator"],
-      lookupLocalStorage: "selectedLanguage",
-    },
+    // detection: {
+    //   // order: ["localStorage", "navigator"],
+    //   // // lookupLocalStorage: "selectedLanguage",
+    // },
     backend: {
       loadPath: "/locales/{{lng}}/translation.json",
     },

@@ -13,7 +13,7 @@ import { ProjectsListContext } from "../../Context/ProjectListContext";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
-  useScrollReveal(".p-projects");
+  useScrollReveal(".p-projects", { origin: "top", delay: 100 });
   // const myProjects = [
   //   {
   //     name: "Path Provider",

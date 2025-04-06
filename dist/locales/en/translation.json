@@ -1,0 +1,136 @@
+{
+  "nav-about": "about",
+  "nav-tech": "Technologies",
+  "nav-project": "Projects",
+  "greeting": {
+    "line1": "Hello, it's me",
+    "line2": "Harsh Sidhpuria",
+    "line3": "I'm"
+  },
+  "job-greet": "I'm",
+  "job-title1": "Full Stack Developer",
+  "job-title2": "Web Developer",
+  "job-title3": "Software Developer",
+  "brief-about": "Result-oriented software developer with a background in computer engineering, having a good sense of solving technical problems, learning new technologies, and implementing effective projects that would create teamwork in innovative solutions in line with the organization's objectives.",
+  "downloadCVBtn": "Download CV",
+  "about-title": "About",
+  "about": {
+    "b1": "Hi, I am Harsh Sidhpuria, a passionate software developer with a solid computer engineering background. I have experience in full-stack development with C, C#, Python, JavaScript, and RESTful API development.",
+    "b2": "My projects include an intuitive campus navigation system and real-time emotion detection. With ASP.NET Core, advanced algorithms, and teamwork, I work towards the impact and efficiency of results.",
+    "b3": "Besides coding, I love traveling, reading, and learning new technologies to stay ahead in the ever-evolving tech world.",
+    "b4": "—check out my work and connect with me!"
+  },
+  "technologies-known-title": "Technologies known",
+  "view-all-tech-btn": "View All Technologies",
+  "projects-title": "Projects",
+  "add-details-title1": "My Additional",
+  "add-details-title2": "Information",
+  "add-detail-breif": "I speak English, Hindi, and Gujarati, which allows me to connect with a wide range of people. I enjoy learning about new technologies, traveling for fresh experiences, and reading to expand my knowledge. My effective communication, critical thinking, and decision-making skills help me tackle challenges and adapt rapidly.",
+  "language-title": "Languages Known",
+  "language": ["English", "Hindi", "Gujarati"],
+  "interest-title": "Interest",
+  "interest": ["Continuous Learning", "Travelling", "Book Reading"],
+  "softskill-title": "Soft Skill",
+  "softskill": ["Communication", "Critical thinking", "Decison Making"],
+  "contact-title1": "Get in Touch",
+  "contact-title2": "Contact me",
+  "contact": {
+    "c1": "Name",
+    "c2": "Email Address",
+    "c3": "Message"
+  },
+  "send-btn": "SEND",
+  "contact-success-msg": "Thank You for contacting me .I will contact you in a while.",
+  "contact-error-msg": "Something Went Wrong. Please try again later or else contact through email or linkedin.",
+  "follow-me": "Follow Me On",
+  "footer-about-title": "About Me",
+  "footer-about": "Passionate developer building creative web experiences. Let's collaborate and create something amazing!",
+  "check-git": "Check it on Github",
+  "read-more-bnt": "Read More",
+  "tech-used-title": "Technologies Used",
+  "unsupport-vid-tag-warning": "Your browser does not support the video tag.",
+  "visit-website": "Visit Website",
+  "proj-images-title": "Images",
+  "pd-proj-p1": "Project",
+  "pd-proj-p2": "Additional",
+  "pd-proj-p3": "Information",
+  "thank-you": "Thank You",
+
+  "project-list": {
+    "ProjectsList": [
+      {
+        "name": "Path Provider",
+        "brief": "This web application displays nearby locations of university or place. Users can scan a QR code to access the site, view maps, and explore location details.",
+        "detail_decs": "This project is a web application that provides users with a map displaying all the locations nearby a particular university or any other place. Users can scan a QR code to navigate to the website where they can view maps and other details of that place. The application is built using HTML, CSS, JavaScript, and Python. The Folium library in Python is used for creating the interactive maps.",
+        "technology": ["HTML", "CSS", "JavaScript", "Python", "Folium"],
+        "features": [
+          "Display dynamic maps with locations nearby a specified place.",
+          "Search for places and universities.",
+          "Interactive and user-friendly interface.",
+          "Responsive design.",
+          "Navigate to the map by scanning a QR code."
+        ]
+      },
+      {
+        "name": "Javascript Projects",
+        "brief": "A JavaScript mini-projects includes small practical projects, such as tic tac toe game with single player(minimax algorithm) and multiplayer feature,to-do lists, Random Color Generator, Text Converter,Text to speach Converter,text searching and highlighting and Weather Forecast. This helps me practice core JavaScript, DOM manipulation, and APIs while building useful, hands-on applications.",
+        "detail_decs": "I have built a collection of JavaScript mini-projects to enhance my skills in core JavaScript, DOM manipulation, algorithms, and API integration. This collection includes a Tic-Tac-Toe game with both single-player mode, where an AI opponent is powered by the Minimax algorithm, and a multiplayer mode for two users. I also developed a To-Do List application that allows users to add, edit, mark as completed, and delete tasks, with data persistence using localStorage. Another project is a Random Color Generator, which creates random colors with their HEX and RGB values, useful for designers and developers. Additionally, I built a Text Converter, which enables users to format text by converting it to uppercase, lowercase, or capitalizing sentences, making text editing more efficient. My Text-to-Speech Converter leverages the Web Speech API to transform written text into spoken words, enhancing accessibility. I also created a Text Searching & Highlighting tool that allows users to search for specific words within a paragraph and highlights them instantly. Through these projects, I have practiced JavaScript fundamentals, DOM manipulation, event handling, asynchronous programming, algorithm implementation, API integration, and localStorage for data persistence. These projects have not only helped me strengthen my JavaScript expertise but have also provided hands-on experience in building practical, interactive applications that solve real-world problems.",
+        "technology": ["JavaScript", "html", "css"],
+        "features": [
+          "Tic-Tac-Toe (Single & Multiplayer): Play against an AI (Minimax algorithm) or challenge a friend.",
+          "To-Do List: Add, edit, complete, and delete tasks with localStorage for data persistence.",
+          "Random Color Generator: Instantly generate random HEX and RGB colors for design inspiration.",
+          "Text Converter: Convert text to uppercase, lowercase, sentence case, and more for easy formatting.",
+          " Text-to-Speech Converter: Uses the Web Speech API to transform written text into speech.",
+          "Text Searching & Highlighting: Find and highlight words or phrases dynamically in a paragraph."
+        ]
+      },
+      {
+        "name": "Facial Expression Detection",
+        "brief": " face expression detection system built using Python, OpenCV, Keras, and TensorFlow. The system is capable of detecting and classifying facial expressions in real-time.",
+        "detail_decs": "I have developed a Face Expression Detection System using Python, OpenCV, Keras, and TensorFlow, designed to detect and classify facial expressions in real-time. This system utilizes OpenCV for face detection, while Keras and TensorFlow power the deep learning model responsible for recognizing emotions such as happy, sad, angry, surprised, neutral, and more. The model is trained on a dataset of facial expressions, ensuring high accuracy in real-world scenarios. The system processes live video feed from a webcam, detects faces, and classifies expressions instantly, making it useful for applications in human-computer interaction, emotion analysis, and surveillance systems. By leveraging deep learning and computer vision, this project enhances my expertise in image processing, neural networks, and real-time AI applications.",
+        "technology": ["python"],
+        "features": [
+          " Real-Time Face Detection",
+          " Emotion Classification",
+          "Deep Learning Model",
+          " Live Webcam Integration",
+          "Scalable & Customizable",
+          "Potential Applications: Useful for human-computer interaction, emotion analysis, and AI-driven surveillance."
+        ]
+      },
+      {
+        "name": "AuthGuard Core",
+
+        "brief": "This project is a demonstration of authentication and authorization in ASP.NET Core MVC without using the ASP.NET Identity Framework or Entity Framework. The goal is to provide a custom implementation for handling user roles, claims, and permissions.",
+
+        "detail_decs": "This project demonstrates a custom authentication and authorization system in ASP.NET Core MVC, built entirely without ASP.NET Identity Framework or Entity Framework. Instead of relying on built-in frameworks, it provides a lightweight and flexible user management solution, handling user authentication, roles, claims, and permissions through a custom implementation. The system securely manages user logins, assigns roles with specific permissions, and enforces access control using middleware-based authorization and claims-based identity management. It also features secure password hashing and salting, ensuring strong authentication security. By integrating a custom database solution, this project allows full control over how user data is stored and managed, making it adaptable to various requirements.",
+        "technology": ["Asp.net core MVC", "HTML", "CSS", "JavaScript"],
+        "features": [
+          "Custom Authentication System",
+          " Role-Based Access Control (RBAC)",
+          "Claims-Based Authorization",
+          "Secure Password Storage",
+          " Middleware-Driven Authorization",
+          "Database Flexibility"
+        ]
+      },
+      {
+        "name": "Chrome Extension",
+
+        "brief": "A Chrome extension is an extension of browser functionality, using web technologies such as HTML, CSS, and JavaScript. For instance, a Color Picker extension would allow users to pick colors from web pages, showing their codes, such as HEX, for easy use in design or development tasks.",
+
+        "detail_decs": "I have developed a Chrome Extension that enhances browser functionality using HTML, CSS, and JavaScript. One example is a Color Picker Extension, which allows users to effortlessly pick colors from any web page and instantly view their HEX, RGB, or HSL codes. This tool is particularly useful for designers, developers, and content creators, enabling them to extract and use colors without needing external software. The extension integrates seamlessly into the browser, providing a simple yet powerful UI for selecting and copying color codes. By leveraging Chrome’s Extension APIs, it ensures smooth interaction with web pages, making color selection a quick and efficient process.",
+        "technology": ["HTML", "CSS", "Javascript"],
+        "features": [
+          " Easy Color Selection",
+          "Displays Color Codes",
+          "Seamless Integration",
+          "Lightweight & Fast",
+          "User-Friendly Interface",
+          "Ideal for Designers & Developers"
+        ]
+      }
+    ]
+  }
+}

@@ -15,7 +15,6 @@ function AdditionalInfo() {
   const Languages = t("language");
   const interest = t("interest");
   const soft = t("softskill");
-  console.log(Languages);
 
   return (
     <div>

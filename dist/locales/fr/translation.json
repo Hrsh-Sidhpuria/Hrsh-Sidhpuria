@@ -1,0 +1,137 @@
+{
+  "nav-about": "à propos",
+  "nav-tech": "Technologies",
+  "nav-project": "Projets",
+  "greeting": {
+    "line1": "Bonjour, c'est moi",
+    "line2": "Harsh Sidhpuria",
+    "line3": "Je suis"
+  },
+  "job-greet": "Je suis",
+
+  "brief-about": "Développeur logiciel orienté résultats avec un parcours en ingénierie informatique, doté d'un bon sens pour résoudre les problèmes techniques, apprendre de nouvelles technologies et mettre en œuvre des projets efficaces favorisant le travail d'équipe pour des solutions innovantes en ligne avec les objectifs de l'organisation.",
+  "downloadCVBtn": "Télécharger le CV",
+  "about-title": "À propos",
+  "about": {
+    "b1": "Salut, je suis Harsh Sidhpuria, un développeur logiciel passionné avec une solide formation en ingénierie informatique. J'ai de l'expérience en développement full-stack avec C, C#, Python, JavaScript et le développement d'API RESTful.",
+    "b2": "Mes projets incluent un système de navigation intuitif pour campus et la détection d'émotions en temps réel. Avec ASP.NET Core, des algorithmes avancés et le travail d'équipe, je vise l'impact et l'efficacité des résultats.",
+    "b3": "En dehors du codage, j'adore voyager, lire et apprendre de nouvelles technologies pour rester à jour dans le monde en constante évolution de la tech.",
+    "b4": "—découvrez mon travail et connectez-vous avec moi !"
+  },
+  "technologies-known-title": "Technologies connues",
+  "view-all-tech-btn": "Voir toutes les technologies",
+  "projects-title": "Projets",
+  "add-details-title1": "Mes Informations",
+  "add-details-title2": "Supplémentaires",
+  "add-detail-breif": "Je parle anglais, hindi et gujarati, ce qui me permet de me connecter avec un large éventail de personnes. J'aime apprendre de nouvelles technologies, voyager pour vivre de nouvelles expériences et lire pour élargir mes connaissances. Ma communication efficace, ma pensée critique et mes compétences en prise de décision m'aident à relever les défis et à m'adapter rapidement.",
+  "language-title": "Langues connues",
+  "language": ["Anglais", "Hindi", "Gujarati"],
+  "interest-title": "Centre d’intérêt",
+  "interest": ["Apprentissage continu", "Voyager", "Lecture de livres"],
+  "softskill-title": "Compétences douces",
+  "softskill": ["Communication", "Pensée critique", "Prise de décision"],
+  "contact-title1": "Entrer en contact",
+  "contact-title2": "Contactez-moi",
+  "contact": {
+    "c1": "Nom",
+    "c2": "Adresse e-mail",
+    "c3": "Message"
+  },
+  "send-btn": "ENVOYER",
+  "contact-success-msg": "Merci de m'avoir contacté. Je vous contacterai sous peu.",
+  "contact-error-msg": "Une erreur s'est produite. Veuillez réessayer plus tard ou me contacter par e-mail ou via LinkedIn.",
+  "follow-me": "Suivez-moi sur",
+  "footer-about-title": "À propos de moi",
+  "footer-about": "Développeur passionné créant des expériences web créatives. Collaborons et créons quelque chose d’incroyable !",
+  "check-git": "Voir sur Github",
+  "read-more-bnt": "Lire plus",
+  "tech-used-title": "Technologies utilisées",
+  "unsupport-vid-tag-warning": "Votre navigateur ne prend pas en charge la balise vidéo.",
+  "visit-website": "Visiter le site web",
+  "proj-images-title": "Images",
+  "pd-proj-p1": "Projet",
+  "pd-proj-p2": "Supplémentaire",
+  "pd-proj-p3": "Informations",
+  "thank-you": "Merci",
+  "project-list": {
+    "ProjectsList": [
+      {
+        "name": "Fournisseur de Chemin",
+        "brief": "Cette application web affiche les emplacements à proximité d'une université ou d'un lieu. Les utilisateurs peuvent scanner un code QR pour accéder au site, consulter les cartes et explorer les détails des emplacements.",
+        "detail_decs": "Ce projet est une application web qui fournit aux utilisateurs une carte affichant tous les emplacements à proximité d'une université ou de tout autre lieu. Les utilisateurs peuvent scanner un code QR pour accéder au site web où ils peuvent consulter les cartes et d'autres détails de cet endroit. L'application est développée en utilisant HTML, CSS, JavaScript et Python. La bibliothèque Folium de Python est utilisée pour créer des cartes interactives.",
+        "technology": ["HTML", "CSS", "JavaScript", "Python", "Folium"],
+        "features": [
+          "Afficher des cartes dynamiques avec les emplacements à proximité d'un lieu spécifié.",
+          "Rechercher des lieux et des universités.",
+          "Interface interactive et conviviale.",
+          "Conception responsive.",
+          "Naviguer vers la carte en scannant un code QR."
+        ]
+      },
+      {
+        "name": "Projets JavaScript",
+        "brief": "Une collection de mini-projets JavaScript comprenant de petits projets pratiques, tels qu'un jeu de morpion (tic-tac-toe) avec mode solo (algorithme Minimax) et multijoueur, des listes de tâches, un générateur de couleurs aléatoires, un convertisseur de texte, un convertisseur de texte en parole, un outil de recherche et de surlignage de texte et des prévisions météorologiques. Cela m'aide à pratiquer le JavaScript de base, la manipulation du DOM et l'utilisation d'API tout en créant des applications utiles et concrètes.",
+        "detail_decs": "J'ai réalisé une collection de mini-projets JavaScript pour améliorer mes compétences en JavaScript de base, manipulation du DOM, algorithmes et intégration d'API. Cette collection comprend un jeu de Tic-Tac-Toe avec un mode solo où l'adversaire IA est alimenté par l'algorithme Minimax et un mode multijoueur pour deux utilisateurs. J'ai également développé une application de liste de tâches permettant aux utilisateurs d'ajouter, modifier, marquer comme terminées et supprimer des tâches, avec la persistance des données grâce à localStorage. Un autre projet est un générateur de couleurs aléatoires qui crée des couleurs aléatoires avec leurs valeurs HEX et RGB, utiles pour les designers et les développeurs. De plus, j'ai créé un convertisseur de texte permettant aux utilisateurs de formater le texte en majuscules, minuscules ou en capitalisant les phrases pour un formatage plus efficace. Mon convertisseur de texte en parole utilise l'API Web Speech pour transformer le texte écrit en mots parlés, améliorant ainsi l'accessibilité. J'ai également créé un outil de recherche et de surlignage de texte qui permet aux utilisateurs de rechercher des mots spécifiques dans un paragraphe et de les surligner instantanément. Grâce à ces projets, j'ai pratiqué les fondamentaux de JavaScript, la manipulation du DOM, la gestion des événements, la programmation asynchrone, l'implémentation d'algorithmes, l'intégration d'API et l'utilisation de localStorage pour la persistance des données. Ces projets m'ont non seulement permis de renforcer mon expertise en JavaScript, mais m'ont également apporté une expérience pratique dans la création d'applications interactives et utiles répondant à des besoins réels.",
+        "technology": ["JavaScript", "HTML", "CSS"],
+        "features": [
+          "Tic-Tac-Toe (Solo & Multijoueur) : Jouez contre une IA (algorithme Minimax) ou défiez un ami.",
+          "Liste de tâches : Ajoutez, modifiez, terminez et supprimez des tâches avec persistance des données via localStorage.",
+          "Générateur de couleurs aléatoires : Générez instantanément des couleurs HEX et RGB pour l'inspiration graphique.",
+          "Convertisseur de texte : Convertissez le texte en majuscules, minuscules, capitalisation de phrases, et plus encore pour un formatage facile.",
+          "Convertisseur de texte en parole : Utilise l'API Web Speech pour transformer du texte écrit en discours.",
+          "Recherche et surlignage de texte : Recherchez et surlignez dynamiquement des mots ou expressions dans un paragraphe."
+        ]
+      },
+      {
+        "name": "Détection d'Expression Faciale",
+        "brief": "Système de détection d'expressions faciales construit avec Python, OpenCV, Keras et TensorFlow. Le système est capable de détecter et de classer les expressions faciales en temps réel.",
+        "detail_decs": "J'ai développé un système de détection d'expressions faciales utilisant Python, OpenCV, Keras et TensorFlow, conçu pour détecter et classifier les expressions faciales en temps réel. Ce système utilise OpenCV pour la détection des visages, tandis que Keras et TensorFlow alimentent le modèle d'apprentissage profond chargé de reconnaître les émotions telles que heureux, triste, en colère, surpris, neutre, et d'autres. Le modèle est entraîné sur un jeu de données d'expressions faciales, assurant une grande précision dans des situations réelles. Le système traite le flux vidéo en direct provenant d'une webcam, détecte les visages et classe instantanément les expressions, le rendant utile pour les interactions homme-machine, l'analyse des émotions et les systèmes de surveillance. En exploitant l'apprentissage profond et la vision par ordinateur, ce projet renforce mon expertise en traitement d'image, réseaux neuronaux et applications IA en temps réel.",
+        "technology": ["Python"],
+        "features": [
+          "Détection de visage en temps réel",
+          "Classification des émotions",
+          "Modèle d'apprentissage profond",
+          "Intégration de webcam en direct",
+          "Scalable et personnalisable",
+          "Applications potentielles : utile pour l'interaction homme-machine, l'analyse des émotions et la surveillance assistée par IA."
+        ]
+      },
+      {
+        "name": "AuthGuard Core",
+
+        "brief": "Ce projet est une démonstration de l'authentification et de l'autorisation dans ASP.NET Core MVC sans utiliser le framework ASP.NET Identity ou Entity Framework. L'objectif est de fournir une implémentation personnalisée pour la gestion des rôles, des revendications et des permissions des utilisateurs.",
+
+        "detail_decs": "Ce projet démontre un système personnalisé d'authentification et d'autorisation dans ASP.NET Core MVC, entièrement construit sans le framework ASP.NET Identity ni Entity Framework. Au lieu de s'appuyer sur les frameworks intégrés, il propose une solution de gestion des utilisateurs légère et flexible, gérant l'authentification, les rôles, les revendications et les permissions des utilisateurs via une implémentation personnalisée. Le système gère en toute sécurité les connexions des utilisateurs, attribue des rôles avec des permissions spécifiques et applique le contrôle d'accès en utilisant l'autorisation basée sur le middleware et la gestion de l'identité basée sur les revendications. Il inclut également le hachage et le salage sécurisé des mots de passe, garantissant une sécurité d'authentification renforcée. En intégrant une solution de base de données personnalisée, ce projet permet un contrôle total sur la manière dont les données utilisateurs sont stockées et gérées, le rendant adaptable à diverses exigences.",
+
+        "technology": ["Asp.net core MVC", "HTML", "CSS", "JavaScript"],
+
+        "features": [
+          "Système d'authentification personnalisé",
+          "Contrôle d'accès basé sur les rôles (RBAC)",
+          "Autorisation basée sur les revendications",
+          "Stockage sécurisé des mots de passe",
+          "Autorisation pilotée par middleware",
+          "Flexibilité de la base de données"
+        ]
+      },
+      {
+        "name": "Chrome Extension",
+
+        "brief": "Une extension Chrome est une extension de la fonctionnalité du navigateur, utilisant des technologies web telles que HTML, CSS et JavaScript. Par exemple, une extension Color Picker permet aux utilisateurs de sélectionner des couleurs à partir de pages web et d'afficher leurs codes, tels que HEX, pour une utilisation facile dans les tâches de conception ou de développement.",
+
+        "detail_decs": "J'ai développé une extension Chrome qui améliore la fonctionnalité du navigateur en utilisant HTML, CSS et JavaScript. Par exemple, une extension Color Picker permet aux utilisateurs de sélectionner facilement des couleurs depuis n'importe quelle page web et d'afficher instantanément leurs codes HEX, RGB ou HSL. Cet outil est particulièrement utile pour les designers, développeurs et créateurs de contenu, leur permettant d'extraire et d'utiliser des couleurs sans avoir besoin de logiciels externes. L'extension s'intègre parfaitement au navigateur, offrant une interface simple mais puissante pour sélectionner et copier des codes couleur. En exploitant les API d'extensions de Chrome, elle assure une interaction fluide avec les pages web, rendant la sélection des couleurs rapide et efficace.",
+
+        "technology": ["HTML", "CSS", "Javascript"],
+
+        "features": [
+          "Sélection facile des couleurs",
+          "Affichage des codes couleur",
+          "Intégration transparente",
+          "Légère et rapide",
+          "Interface conviviale",
+          "Idéale pour les designers et les développeurs"
+        ]
+      }
+    ]
+  }
+}

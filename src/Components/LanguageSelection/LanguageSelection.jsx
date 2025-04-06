@@ -15,6 +15,12 @@ const languages = [
 function LanguageSelection() {
   const { i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
+  const userLang = navigator.language || navigator.userLanguage;
+  console.log(userLang);
+
+  useEffect(() => {
+    i18n.changeLanguage(userLang);
+  }, []);
 
   useEffect(() => {
     setSelectedLanguage(i18n.language);
@@ -37,7 +43,9 @@ function LanguageSelection() {
       />
       <select
         value={selectedLanguage}
-        onChange={(e) => changeLanguage(e.target.value)}
+        onChange={(e) => {
+          changeLanguage(e.target.value);
+        }}
       >
         {languages.map((lang) => (
           <option key={lang.code} value={lang.code} className="language-menu">

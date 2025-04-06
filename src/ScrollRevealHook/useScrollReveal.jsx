@@ -1,18 +1,26 @@
+// ../../ScrollRevealHook/useScrollReveal.js
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
-const useScrollReveal = (selector, options) => {
+const useScrollReveal = (selector, config = {}) => {
   useEffect(() => {
-    ScrollReveal().reveal(selector, {
-      delay: 200,
-      duration: 1500,
-      distance: "60px",
-      easing: "ease-in-out",
-      origin: "top",
-      // reset: true,
-      ...options,
+    const sr = ScrollReveal();
+
+    sr.reveal(selector, {
+      origin: "right",
+      delay: 100,
+      distance: "50px",
+      duration: 800,
+      reset: true,
+      interval: 100,
+      cleanup: true,
+      ...config,
     });
-  }, [selector, options]);
+
+    return () => {
+      sr.clean(selector);
+    };
+  }, [selector]);
 };
 
 export default useScrollReveal;

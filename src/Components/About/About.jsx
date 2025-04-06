@@ -5,8 +5,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 function About() {
-  const { t } = useTranslation();
-  useScrollReveal(".a-desc", { origin: "right", delay: 400 });
+  const { t, i18n } = useTranslation();
+  useScrollReveal(".a-desc");
   return (
     <div>
       <div className="about" id="About">

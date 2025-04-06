@@ -27,7 +27,6 @@ function ProjectSwiper({ myproj }) {
   const { t } = useTranslation();
   const projlist = t("project-list");
   const { ProjectsList } = projlist;
-  console.log(ProjectsList);
 
   return (
     <div className="projectswiper">

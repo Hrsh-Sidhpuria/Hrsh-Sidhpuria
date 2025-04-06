@@ -19,6 +19,7 @@ import expressjs from "../../image/TechLogo/express.png";
 import mongodb from "../../image/TechLogo/mongodb.png";
 import java from "../../image/TechLogo/java.png";
 import { useTranslation } from "react-i18next";
+import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
 function AllTech() {
   const my_technology = [
@@ -47,6 +48,7 @@ function AllTech() {
   }, []);
   const { t } = useTranslation();
 
+  useScrollReveal(".tech-card", { origin: "left" });
   return (
     <div className="all-tech-container">
       <h2 className="tech-title">{t("technologies-known-title")}</h2>
