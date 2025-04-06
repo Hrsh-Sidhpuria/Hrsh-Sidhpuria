@@ -8,7 +8,7 @@
 
 .pd-intro {
   width: 100%;
-  min-height: 55vh;
+  min-height: 35vh;
   max-height: 90vh;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -57,6 +57,7 @@
   align-items: center;
   background-color: #e6eaf4;
   padding: 20px;
+  overflow: hidden;
 }
 
 .pd-img-name {
