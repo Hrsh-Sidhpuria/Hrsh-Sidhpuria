@@ -4,7 +4,12 @@
 
 :root {
   --blue: #0085b5;
-  --title: #2f4481;
+  --title: #00bfff;
+  --b-blue: #00bfff;
+  --electric-blue: #1e90ff;
+  --deep-blue: #12223d;
+  --text: #f1f1f1;
+  --desc: #c0c0c0;
   --purple: #c6c7e3;
   --black: #242d49;
   --gray: #6c6f81;
@@ -31,7 +36,7 @@
 
 .button {
   align-items: center;
-  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  background-image: linear-gradient(144deg, #1e90ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 24px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;

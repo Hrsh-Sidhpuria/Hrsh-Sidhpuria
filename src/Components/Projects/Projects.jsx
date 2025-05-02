@@ -101,11 +101,11 @@ function Projects() {
           ></div>
           <div
             className="blurry"
-            style={{ background: "#b7bcda", top: "2%", left: "10%" }}
+            style={{ background: "#191818", top: "2%", left: "10%" }}
           ></div>
           <div
             className="blurry"
-            style={{ background: "#ddaaec", top: "18%", left: "30%" }}
+            style={{ background: "#191919", top: "18%", left: "30%" }}
           ></div>
         </div>
       </div>

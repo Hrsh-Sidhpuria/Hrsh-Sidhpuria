@@ -24,7 +24,7 @@
 }
 
 .c-title1 {
-  color: var(--black);
+  color: var(--electric-blue);
   font-weight: bold;
   font-size: 3rem;
   display: flex;
@@ -328,6 +328,7 @@ input:checked + .slider:before {
   }
   .e-response {
     position: absolute;
+
     top: 0px;
   }
 

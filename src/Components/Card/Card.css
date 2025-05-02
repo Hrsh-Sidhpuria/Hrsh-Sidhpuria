@@ -1,20 +1,43 @@
 .c-card {
-  border: 3px #0085b5 solid;
   width: 30%;
-  padding: 10px;
-  background: linear-gradient(145deg, #c6c7e3, #e6e6e6);
-  border-radius: 15px;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
-    -6px -6px 12px rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid var(--title);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px var(--electric-blue);
   text-align: center;
-  font-family: "Arial", sans-serif;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.3s ease;
+  color: #1a1a2e;
+  position: relative;
+  overflow: hidden;
+}
+
+.c-card::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.3),
+    transparent 70%
+  );
+  z-index: 0;
+  transition: transform 0.5s ease;
+}
+
+.c-card:hover::before {
+  transform: scale(1.1);
 }
 
 .c-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2),
-    -8px -8px 16px rgba(255, 255, 255, 0.6);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
 }
 
 .a-emoji img {
@@ -28,7 +51,7 @@
 .title {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #333;
+  color: var(--text);
   margin-bottom: 15px;
 }
 
@@ -39,7 +62,7 @@
 
 .c-list li {
   font-size: 1rem;
-  color: #555;
+  color: var(--text);
   margin: 4px 0;
   padding: 2px 5px;
   text-align: left;

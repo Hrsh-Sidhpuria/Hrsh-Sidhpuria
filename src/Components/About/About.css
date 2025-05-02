@@ -19,7 +19,6 @@
 }
 
 .a-desc {
-  color: var(--gray);
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -29,6 +28,7 @@
   padding: 1rem;
   text-align: center;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--text);
 }
 
 @media screen and (max-width: 768px) {
@@ -53,7 +53,7 @@
 
 .description span {
   text-transform: none;
-  color: var(--black);
+  color: var(--text);
 }
 
 @media screen and (max-width: 480px) {

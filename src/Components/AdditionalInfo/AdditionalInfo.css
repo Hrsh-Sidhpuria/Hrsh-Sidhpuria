@@ -20,7 +20,7 @@
   gap: 2rem;
 }
 .a1 {
-  color: var(--black);
+  color: var(--electric-blue);
   font-weight: bold;
   font-size: 3rem;
 }
@@ -31,7 +31,7 @@
 }
 
 .t-summary {
-  color: var(--gray);
+  color: var(--text);
   font-size: 0.7rem;
 }
 .c-card1 {

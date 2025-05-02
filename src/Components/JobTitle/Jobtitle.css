@@ -3,7 +3,7 @@
 }
 
 .j-text {
-  color: var(--black);
+  color: var(--electric-blue);
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: -20px;
@@ -11,13 +11,13 @@
 .dynamic-text {
   position: relative;
   list-style: none;
-  position: relative;
   padding-top: 0px;
-  margin-top: 2px;
-  margin-left: 0px;
+  margin-top: 8px;
+  margin-left: 7px;
   overflow: hidden;
   top: 1px;
   height: 37px;
+  font-weight: 800;
 }
 
 .j-typing-text {

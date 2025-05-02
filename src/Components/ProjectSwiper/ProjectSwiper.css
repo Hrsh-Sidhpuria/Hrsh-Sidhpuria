@@ -16,14 +16,25 @@
 }
 
 .Project-slider .swiper-slide {
-  background: linear-gradient(145deg, #c6c7e3, #e6e6e6);
+  background: rgba(255, 255, 255, 0.1); /* Transparent white for glass effect */
+  backdrop-filter: blur(12px); /* Blur the background */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Subtle white border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+
   flex-shrink: 0;
   width: auto;
   max-width: 20rem;
   display: flex;
   justify-content: center;
   height: auto;
-  border-radius: 9px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Project-slider .swiper-slide:hover {
+  transform: scale(1);
+  box-shadow: 0 6px 36px rgba(0, 191, 255, 0.3); /* Slight blue glow on hover */
 }
 
 .Project-slider img {
@@ -62,6 +73,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--electric-blue);
 }
 .sc-brief {
   font-size: medium;
@@ -72,6 +84,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
+  color: var(--text);
 }
 
 .button-icon {
@@ -134,34 +147,29 @@
 
 .sc-button {
   cursor: pointer;
-  padding: 0;
   font-size: 1em;
   width: 7em;
   aspect-ratio: 1/0.15;
-  color: black;
-  background: #9c9cda;
-  background-size: cover;
-  background-blend-mode: overlay;
-  border-radius: 0.5em;
-  outline: 0.1em solid #ffffff;
-  border: 0;
-  box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+  color: #000;
+  background: rgba(156, 156, 218, 0.2); /* Semi-transparent glassy base */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.75em;
+  outline: none;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-in-out;
   position: relative;
   padding: 10px;
+  background-blend-mode: overlay;
 }
 
 .sc-button:hover {
-  transform: scale(1);
-  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
-  background: linear-gradient(45deg, #212121, #252525);
-  background: radial-gradient(
-    circle at bottom,
-    rgba(50, 100, 180, 0.5) 10%,
-    #05062d 70%
-  );
-  outline: 0;
-  color: white;
+  transform: scale(1.03);
+  background: rgba(76, 110, 232, 0.25);
+  color: #fff;
+  box-shadow: 0 4px 60px rgba(76, 110, 232, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .visit-link {

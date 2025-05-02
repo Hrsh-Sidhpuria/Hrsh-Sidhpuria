@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 import Jobtitle from "../JobTitle/Jobtitle";
 import { useTranslation } from "react-i18next";
+import { CustomCursor } from "../CustomCursor/CustomCursor";
 
 function Intro() {
   const { t } = useTranslation();
@@ -21,6 +22,7 @@ function Intro() {
   useScrollReveal(".i-left");
   return (
     <div>
+      <CustomCursor />
       <div className="intro">
         <div className="i-left">
           <div className="i-Introduction">
@@ -113,7 +115,7 @@ function Intro() {
 
           <div
             className="blurry"
-            style={{ background: "#b7bcda", bottom: "-50%", left: "-120%" }}
+            style={{ background: "#191919", bottom: "-50%", left: "-120%" }}
           ></div>
         </div>
       </div>

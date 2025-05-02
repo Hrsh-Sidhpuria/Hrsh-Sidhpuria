@@ -4,6 +4,7 @@
   border-radius: 12px;
   position: relative;
   overflow: hidden;
+  
 }
 
 .logo-container::before {
@@ -13,11 +14,7 @@
   left: 50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.2),
-    transparent 10%
-  );
+  background: var(--black)
   transform: translate(-50%, -50%) rotate(0deg);
   animation: rotateShine 6s linear infinite;
   z-index: 0;
@@ -38,7 +35,8 @@
 .logo-text {
   position: relative;
   z-index: 1;
-  color: #1d2b34;
+  color: var(--electric-blue
+  );
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0;
@@ -59,7 +57,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #bfc3de;
+background-color: #1d2b34;;
   display: flex;
   justify-content: center;
   align-items: center;
