@@ -1,8 +1,7 @@
 /* Container for the static visible area */
 .static-container {
-  width: 1400px;
+  width: 1600px;
   max-width: 1920px;
-
   overflow-x: hidden;
 }
 

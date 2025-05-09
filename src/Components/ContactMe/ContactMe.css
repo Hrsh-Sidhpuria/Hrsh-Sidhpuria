@@ -267,6 +267,13 @@ input:checked + .slider:before {
 #success-msg {
   transition-delay: 3s;
 }
+@media screen and (min-width: 1400px) {
+  .c-btn,
+  .c-loader {
+    width: 590px;
+    max-width: 650px;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .c-body {

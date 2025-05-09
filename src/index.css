@@ -45,7 +45,6 @@
   animation: pulse 1.5s infinite ease-in-out;
 }
 
-/* Ring Cursor */
 .ring-cursor {
   position: fixed;
   width: 40px;
@@ -153,4 +152,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    cursor: none !important;
+  }
+
+  .dot-cursor {
+    display: none;
+  }
+  .ring-cursor {
+    display: none;
+  }
 }

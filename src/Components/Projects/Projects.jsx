@@ -97,7 +97,7 @@ function Projects() {
           </div>
           <div
             className="blurry"
-            style={{ background: "#b7bcda", top: "10%", left: "20%" }}
+            style={{ background: "#bf2c18", top: "10%", left: "20%" }}
           ></div>
           <div
             className="blurry"

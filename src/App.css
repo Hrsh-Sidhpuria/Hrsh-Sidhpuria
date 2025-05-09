@@ -85,7 +85,7 @@
   height: clamp(10rem, 30vw, 14rem);
   border-radius: 50%;
   background: white;
-  filter: blur(72px);
+  filter: blur(180px);
   z-index: -1;
 }
 

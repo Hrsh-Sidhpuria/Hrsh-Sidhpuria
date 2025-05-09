@@ -123,10 +123,10 @@ function ContactMe() {
           </form>
           <div className="c-message">
             <div className="s-response" style={{ color: "green" }}>
-              {successresp}hello
+              {successresp}
             </div>
             <div className="e-response" style={{ color: "red" }}>
-              {errorresp}hello
+              {errorresp}
             </div>
           </div>
           <label></label>

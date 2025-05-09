@@ -13,6 +13,7 @@ import AllTech from "./Components/AllTech/AllTech";
 import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
 import { ProjectsListProvider } from "./Context/ProjectListContext";
 import "./i18n";
+import VisitorCount from "./Components/VisitorCount/VisitorCount";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
                 <div id="ContactMe">
                   <ContactMe />
                 </div>
+                <VisitorCount />
                 <Footer />
                 <ScrollUp />
               </>

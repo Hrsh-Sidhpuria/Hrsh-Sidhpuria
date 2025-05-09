@@ -119,7 +119,7 @@
   .intro {
     flex-direction: column;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     margin-bottom: -22%;
     margin-top: 2%;
   }
@@ -142,7 +142,7 @@
   }
   .i-right {
     transform: scale(1.2);
-    top: 0px;
+    top: 50px;
     width: 100%;
   }
 
@@ -157,7 +157,7 @@
 
   .i-button {
     display: flex;
-    padding: 0;
+    padding: 2px;
     margin: 0;
   }
 

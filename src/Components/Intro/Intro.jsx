@@ -99,7 +99,7 @@ function Intro() {
             initial={{ right: "-20%" }}
             whileInView={{ right: "-1%" }}
             transition={transition}
-            viewport={{ amount: 0.8 }}
+            viewport={{ amount: 0.3 }}
           >
             <FloatingDiv divData={SoftwareDev} text="Software Development" />
           </motion.div>
@@ -115,7 +115,7 @@ function Intro() {
 
           <div
             className="blurry"
-            style={{ background: "#191919", bottom: "-50%", left: "-120%" }}
+            style={{ background: "#bf2c18", bottom: "-60%", left: "-150%" }}
           ></div>
         </div>
       </div>

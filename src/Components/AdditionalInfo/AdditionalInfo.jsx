@@ -65,7 +65,7 @@ function AdditionalInfo() {
             >
               <Card emoji={SoftSkill} title={t("softskill-title")} arr={soft} />
             </motion.div>
-            <div className="blurry" style={{ background: "#ddaaec" }} />
+            <div className="blurry" style={{ background: "#bf2c18" }} />
           </div>
         </div>
       </div>
