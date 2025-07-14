@@ -16,6 +16,7 @@ import nodejs from "../../image/TechLogo/nodejs.png";
 import expressjs from "../../image/TechLogo/express.png";
 import mongodb from "../../image/TechLogo/mongodb.png";
 import java from "../../image/TechLogo/java.png";
+import docker from "../../image/TechLogo/docker.svg";
 
 import dsa from "../../image/TechLogo/dsa.png";
 import SlidingDiv from "../SlidingDiv/SlidingDiv";
@@ -44,6 +45,7 @@ function Technologies() {
     { logo: { nodejs }, name: "Node js" },
     { logo: { expressjs }, name: "Express js" },
     { logo: { mongodb }, name: "MongoDB" },
+    { logo: { docker }, name: "Docker" },
   ];
 
   function navigateTOTechPage() {

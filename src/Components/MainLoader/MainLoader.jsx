@@ -13,7 +13,7 @@ function MainLoader() {
             Portfolio
           </h1>
         </div>
-        <div className="main-loader"></div>
+        <div className="main-loader"></div> 
       </div>
     </>
   );

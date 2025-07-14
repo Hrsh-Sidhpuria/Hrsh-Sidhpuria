@@ -109,4 +109,11 @@ Result-oriented software developer with a background in computer engineering, ha
 
 <img width=100% title="thank you" alt="thank you" src="https://capsule-render.vercel.app/api?type=rect&height=86&text=Thank%20You&textBg=false&animation=twinkling&reversal=false&section=footer"/>
 
+## Chatbot Integration
+
+- The chatbot UI and logic were migrated from the `chatbot` folder (HTML/CSS/JS) to a React component in `src/Components/Chatbot/Chatbot.jsx`.
+- All chatbot assets are in `src/assets`.
+- Styles are in `src/Components/Chatbot/Chatbot.css`.
+- To update chatbot logic or UI, edit the React component and CSS.
+
 

@@ -18,6 +18,7 @@ import nodejs from "../../image/TechLogo/nodejs.png";
 import expressjs from "../../image/TechLogo/express.png";
 import mongodb from "../../image/TechLogo/mongodb.png";
 import java from "../../image/TechLogo/java.png";
+import docker from "../../image/TechLogo/docker.svg";
 import { useTranslation } from "react-i18next";
 import useScrollReveal from "../../ScrollRevealHook/useScrollReveal";
 
@@ -41,6 +42,7 @@ function AllTech() {
     { logo: nodejs, name: "Node js" },
     { logo: expressjs, name: "Express js" },
     { logo: mongodb, name: "MongoDB" },
+    { logo: docker, name: "Docker" },
   ];
 
   useEffect(() => {

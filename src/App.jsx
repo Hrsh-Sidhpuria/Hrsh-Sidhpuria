@@ -14,6 +14,7 @@ import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
 import { ProjectsListProvider } from "./Context/ProjectListContext";
 import "./i18n";
 import VisitorCount from "./Components/VisitorCount/VisitorCount";
+import Chatbot from "./Chatbot";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
                   <ContactMe />
                 </div>
                 <VisitorCount />
+                <Chatbot />
                 <Footer />
                 <ScrollUp />
               </>

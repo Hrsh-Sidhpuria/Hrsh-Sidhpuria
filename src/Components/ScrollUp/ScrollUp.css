@@ -3,10 +3,12 @@
 
   border: 1px var(--black) solid;
   position: fixed;
-  right: 1rem;
-  bottom: 1rem; 
+  right: 50%;
+  bottom: 1rem;
   display: inline-flex;
   padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: white;
   font-size: 1.25rem;
   backdrop-filter: blur(16px);
