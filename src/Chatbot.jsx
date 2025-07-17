@@ -339,7 +339,9 @@ function Chatbot() {
             onClick={() => setOpen(true)}
             style={{ pointerEvents: 'auto' }}
           >
-            <img src={chatbotImg} alt="Chatbot" width={48} height={48} />
+            <div className="rotating-dotted-circle">
+                <img src={chatbotImg} alt="Chatbot" width={48} height={48} />
+            </div>
           </button>
         </div>
       )}

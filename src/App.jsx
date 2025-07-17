@@ -15,8 +15,27 @@ import { ProjectsListProvider } from "./Context/ProjectListContext";
 import "./i18n";
 import VisitorCount from "./Components/VisitorCount/VisitorCount";
 import Chatbot from "./Chatbot";
+import { useEffect } from "react";
+import Lenis from "lenis";
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smooth: true,
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
   return (
     <ProjectsListProvider>
       <>
