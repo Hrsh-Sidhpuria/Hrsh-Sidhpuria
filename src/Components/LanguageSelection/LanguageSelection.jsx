@@ -16,7 +16,7 @@ function LanguageSelection() {
   const { i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
   const userLang = navigator.language || navigator.userLanguage;
-  console.log(userLang);
+ 
 
   useEffect(() => {
     i18n.changeLanguage(userLang);

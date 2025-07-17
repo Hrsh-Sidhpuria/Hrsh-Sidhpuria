@@ -27,7 +27,6 @@ function VisitorCount() {
     updateVisitorCount();
   }, []);
 
-  console.log(count);
 
   return (
     <div className="visitor-container">
