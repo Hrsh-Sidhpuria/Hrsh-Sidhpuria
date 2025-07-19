@@ -1,17 +1,23 @@
-.harsh-chatbot-root, .harsh-chatbot-root * {
+.harsh-chatbot-root,
+.harsh-chatbot-root * {
   all: unset;
   box-sizing: border-box;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
   cursor: auto !important;
   font-size: 16px !important;
   line-height: 1.5 !important;
 }
 
-.harsh-chatbot-root .chatbot-toggler:hover, .harsh-chatbot-root .chatbot-toggler:focus {
-  cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="6" fill="white"/></svg>') 16 16, pointer;
+.harsh-chatbot-root .chatbot-toggler:hover,
+.harsh-chatbot-root .chatbot-toggler:focus {
+  cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="6" fill="white"/></svg>')
+      16 16,
+    pointer;
 }
 .harsh-chatbot-root .chatbot-container {
-  cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="6" fill="white"/></svg>') 16 16, default;
+  cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="6" fill="white"/></svg>')
+      16 16,
+    default;
 }
 
 .harsh-chatbot-root .chatbot-container {
@@ -25,11 +31,11 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
   background: linear-gradient(135deg, #181a23 60%, #23263a 100%);
   color: #fff;
   border-radius: 1.1rem;
-  box-shadow: 0 4px 24px 0 rgba(0, 207, 255, 0.10), 0 1.5px 8px 0 #635BFF11;
+  box-shadow: 0 4px 24px 0 rgba(0, 207, 255, 0.1), 0 1.5px 8px 0 #635bff11;
   padding: 0;
   overflow: hidden;
 }
@@ -56,7 +62,7 @@
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid #00cfff22;
-  box-shadow: 0 2px 12px 0 rgba(0, 207, 255, 0.10);
+  box-shadow: 0 2px 12px 0 rgba(0, 207, 255, 0.1);
   width: 100%;
 }
 .card-header .profile-block {
@@ -147,7 +153,7 @@
 .faq-tab-btn {
   width: 90%;
   max-width: 320px;
-  padding: 8px 0;
+  padding: 8px 10px;
   border-radius: 999px;
   border: none;
   color: #00cfff;
@@ -164,7 +170,7 @@
 .faq-tab-btn:focus,
 .faq-tab-btn:hover {
   color: #fff;
-  background: linear-gradient(90deg, #00cfff 0%, #635BFF 100%);
+  background: linear-gradient(90deg, #00cfff 0%, #635bff 100%);
 }
 
 .faq-question-btn {
@@ -188,7 +194,7 @@
 .faq-question-btn:hover,
 .faq-question-btn:focus {
   color: #fff;
-  background: linear-gradient(90deg, #00cfff 0%, #635BFF 100%);
+  background: linear-gradient(90deg, #00cfff 0%, #635bff 100%);
 }
 
 .card-body {
@@ -249,7 +255,7 @@
   right: 18px;
   bottom: 70px;
   background: #23263a;
-  color: #00cfff;
+  color: #698185;
   border: none;
   border-radius: 50%;
   width: 36px;
@@ -312,7 +318,7 @@
   margin-right: auto;
 }
 .chat-message.user .bubble {
-  background: linear-gradient(135deg, #635BFF 0%, #00cfff 100%);
+  background: linear-gradient(135deg, #635bff 0%, #00cfff 100%);
   color: #fff;
   border-top-right-radius: 0.7rem;
   border-bottom-left-radius: 1.2rem;
@@ -333,7 +339,8 @@
   transform: none;
 }
 .chat-message .timestamp {
-  font-size: 10px;
+  font-size: 2px;
+  font-weight: 100;
   margin-top: 2px;
   margin-bottom: -8px;
   opacity: 0.7;
@@ -341,7 +348,6 @@
 }
 .chat-message.user .bubble .timestamp {
   text-align: right;
- 
   color: #ffffff;
 }
 .chat-message.bot .bubble .timestamp {
@@ -386,7 +392,7 @@
   opacity: 0.7;
 }
 #chat-send {
-  background: linear-gradient(90deg, #00cfff 0%, #635BFF 100%);
+  background: linear-gradient(90deg, #00cfff 0%, #635bff 100%);
   color: #fff;
   border: none;
   border-radius: 1.2rem;
@@ -401,7 +407,7 @@
   font-size: 1rem;
 }
 #chat-send:hover {
-  background: linear-gradient(90deg, #635BFF 0%, #00cfff 100%);
+  background: linear-gradient(90deg, #635bff 0%, #00cfff 100%);
   box-shadow: none;
 }
 
@@ -429,7 +435,8 @@
   animation-delay: 0.4s;
 }
 @keyframes typing {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -438,9 +445,15 @@
 }
 
 @keyframes toggler-bubble-float {
-  0% { transform: translateY(-50%) translateY(0); }
-  50% { transform: translateY(-50%) translateY(-18px); }
-  100% { transform: translateY(-50%) translateY(0); }
+  0% {
+    transform: translateY(-50%) translateY(0);
+  }
+  50% {
+    transform: translateY(-50%) translateY(-18px);
+  }
+  100% {
+    transform: translateY(-50%) translateY(0);
+  }
 }
 
 .toggler-chat-bubble {
@@ -450,7 +463,7 @@
   padding: 1.1rem 2.2rem;
   font-size: 1.18rem;
   font-weight: 700;
-  box-shadow: 0 8px 32px 0 #00e0ff77, 0 2px 12px 0 #635BFF33;
+  box-shadow: 0 8px 32px 0 #00e0ff77, 0 2px 12px 0 #635bff33;
   position: absolute;
   right: 70px;
   top: 50%;
@@ -495,7 +508,7 @@
   color: #00cfff;
 }
 .toggler-chat-bubble::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 100%;
   top: 50%;
@@ -529,7 +542,7 @@
     font-weight: 500 !important;
     letter-spacing: 0.01em !important;
     border-radius: 1.5rem !important;
-    box-shadow: 0 2px 8px 0 #00e0ff33, 0 1px 4px 0 #635BFF11 !important;
+    box-shadow: 0 2px 8px 0 #00e0ff33, 0 1px 4px 0 #635bff11 !important;
     border: 2px solid #fff !important;
     padding: 0.7rem 1.2rem !important;
     z-index: 2147483647 !important;
@@ -550,7 +563,7 @@
     word-break: break-word !important;
   }
   .toggler-chat-bubble::after {
-    content: '';
+    content: "";
     position: absolute !important;
     left: 24px !important;
     right: unset !important;
@@ -585,7 +598,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 2147483646;
   transition: opacity 0.2s;
   cursor: pointer;
@@ -650,7 +663,7 @@
 .harsh-chatbot-root .chatbot-toggler:focus img {
   border-color: #fff;
   box-shadow: 0 0 24px 4px #00e0ffcc, 0 4px 16px #23263a88;
-} 
+}
 
 .rotating-dotted-circle {
   position: relative;
@@ -662,7 +675,7 @@
 }
 
 .rotating-dotted-circle::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -689,4 +702,4 @@
   100% {
     transform: rotate(360deg);
   }
-} 
+}
